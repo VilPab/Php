@@ -26,7 +26,7 @@ if (!isset($_POST['enviar'])) {
 
             $resultado*=$_POST["numero1"];
         }
-    echo "<p>El resultado de ".$_POST["numero1"]." elevado a ".$_POST["numero2"]." es $resultado</p> <br>";
+    echo "<p>El resultado de ".$_POST["numero1"]." elevado a ".$_POST["numero2"]." es igual a $resultado</p> <br>";
 }
 ?>
 
