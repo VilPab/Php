@@ -18,7 +18,7 @@
             echo "<p> $i es multiplo de 3</p>";
         }
         if($i%5==0){
-            echo "<p> $i es multiplo de 3</p>";
+            echo "<p> $i es multiplo de 5</p>";
         }
     }
     $i=1;
@@ -30,7 +30,7 @@
 
             }
             if ($i % 5 == 0) {
-                echo "<p> $i es multiplo de 3</p>";
+                echo "<p> $i es multiplo de 5</p>";
 
             }
             $cont++;
