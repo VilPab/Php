@@ -35,3 +35,8 @@ if($_POST["oculto"]<50) {
 
 
 ?>
+
+<a href="index.php">Volver</a>
+
+</body>
+</html>

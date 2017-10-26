@@ -6,12 +6,7 @@
 <body>
 
 <?php
-/**
- * Created by PhpStorm.
- * User: alumno
- * Date: 24/10/17
- * Time: 12:59
- */
+
 if (!isset($_POST['enviar'])) {
     ?>
 
@@ -27,20 +22,22 @@ if (!isset($_POST['enviar'])) {
     </form>
 <?php } else {
         $numero=$_POST["numero"];
+        $contador=1;
         echo "<table style='border-color: black;'>";
 
 
         for($i=0;$i<$numero;$i++){
             if($i%2==0){
                 echo"<tr style='background: lightgray;'>";
+
             }
             else{
                 echo"<tr style='background: lightblue;'>";
             }
             for($x=0;$x<$numero;$x++){
 
-                    echo "<td style='padding: 0.3cm;'></td>";
-
+                    echo "<td style='padding: 0.3cm;'>$contador</td>";
+                    $contador++;
             }
             echo "</td>";
         }
