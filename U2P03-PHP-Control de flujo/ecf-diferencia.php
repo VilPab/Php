@@ -15,7 +15,6 @@
  */
 
 
-
     if (!isset($_POST['enviar'])) {
         ?>
 
@@ -58,10 +57,11 @@
         }
 
 
-
-
 }
 ?>
+
+
+
 <br>
 <a href="index.php">Volver</a>
 
