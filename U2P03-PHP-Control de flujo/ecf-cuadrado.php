@@ -22,11 +22,11 @@ if (!isset($_POST['enviar'])) {
     </form>
 <?php } else {
         $numero=$_POST["numero"];
-        $contador=1;
-        echo "<table style='border-color: black;'>";
+
+        echo "<table border='1' style='border-color: black;'>";
 
 
-        for($i=0;$i<$numero;$i++){
+        for($i=1;$i<=$numero;$i++){
             if($i%2==0){
                 echo"<tr style='background: lightgray;'>";
 
@@ -34,14 +34,14 @@ if (!isset($_POST['enviar'])) {
             else{
                 echo"<tr style='background: lightblue;'>";
             }
-            for($x=0;$x<$numero;$x++){
+            for($x=1;$x<=$numero;$x++){
 
-                    echo "<td style='padding: 0.3cm;'>$contador</td>";
-                    $contador++;
+                    echo "<td style='padding: 0.3cm;'>".($x*$i)."</td>";
+
             }
             echo "</td>";
         }
-        echo"</table>";
+
 
 
 }

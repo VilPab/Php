@@ -30,6 +30,9 @@ if (!isset($_POST['enviar'])) {
         <input type="submit" name="enviar">
     </form>
 <?php } else {
+    if(!isset($_POST["bisiesto"])){
+       $bisiesto="no";
+    }
     $mesB=false;
     $mesN=false;
     $cadena=$_POST["cadena"];
