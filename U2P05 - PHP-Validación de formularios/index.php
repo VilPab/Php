@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Formulario De Alumnos</title>
 </head>
 <body>
+<div style="margin-left: 39%;">
 <?php
     $telefono=false;
     $direccion=false;
     $enviado=false;
     $clave=false;
+    $fechas=false;
     $errorP=true;
     $errorF=true;
 if(isset($_POST["enviar"])) {
@@ -29,10 +31,12 @@ if(isset($_POST["enviar"])) {
         case 10:
         case 12:
             if($dia>0 && $dia<=31){
+                $fechas=true;
                 $errorF=true;
             }else{
                 $fecha="";
                 $errorF=false;
+                $fechas=false;
             }
             break;
 
@@ -41,22 +45,26 @@ if(isset($_POST["enviar"])) {
         case 8:
         case 11:
         if($dia>0 && $dia<=30){
+                 $fechas=true;
                 $errorF=true;
         }else{
             $fecha="";
             $errorF=false;
+            $fechas=false;
         }
         break;
 
         case 2:
 
             if ($dia <= 28 && $dia >= 1) {
+                $fechas=true;
                 $errorF=true;
             } else if (($dia == 29 && (($año % 4 == 0 && $año % 100 != 0) || $año % 400 == 0))) {
-
+                $fechas=true;
                 $errorF=true;
 
             } else {
+                $fechas=false;
                 $errorF=false;
                 $fecha="";
 
@@ -75,6 +83,7 @@ if(isset($_POST["enviar"])) {
             $clave = false;
             $pass = $_POST["pass"];
             $errorP = false;
+            $pass="";
         }
     }
 
@@ -108,9 +117,10 @@ if(isset($_POST["enviar"])) {
     $dir = "";
     $ciclo = "";
 }
-if(!$enviado || !$clave ){
+if(!$enviado || !$clave ||!$fechas ){
 ?>
 
+<div style="width: 294px;">
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8"); ?> " method="post">
     Email:<input type="email" name="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required value="<?php echo $email ;?>" /><br>
     Fecha de nacimiento:<input type="date" name="fecha" value="<?php echo $fecha ;?>" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" required / ><?php if(!$errorF){echo" <a style='color:red;'>La fecha tiene que tener un formato dd/mm/aaaa y tiene que ser valida</a>"; $errorF=true;}?><br>
@@ -126,6 +136,8 @@ if(!$enviado || !$clave ){
                     </select>
     <br> <input name="enviar" type="submit" >
 </form>
+</div>
+</body>
 <?php }
     else{
 
@@ -151,7 +163,7 @@ if(!$enviado || !$clave ){
         ?>
 
     </ul>
-
+</body>
 <?php
 
 }
