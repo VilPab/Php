@@ -1,4 +1,24 @@
 <?php
+
+function validarTlf($tlf){
+    if(!empty($tlf)){
+        $telefono=true;
+
+    }else{
+        $telefono=false;
+    }
+    return $telefono;
+}
+function validarDir($dir)
+    {
+        if (!empty($dir)) {
+            $direccion = true;
+
+        } else {
+            $direccion = false;
+        }
+        return $direccion;
+    }
 function validarFecha($fecha)
 {
 
@@ -54,6 +74,18 @@ function validarFecha($fecha)
             break;
     }
     return $errorF;
+}
+function validarContraseña($pass){
+    if(!empty($_POST["pass"])) {
+    if (strlen($pass) >= 8 && strlen($pass) <= 12) {
+        $errorP = true;
+
+    } else {
+        $errorP = false;
+
+    }
+    return $errorP;
+}
 }
 
 ?>

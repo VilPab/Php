@@ -203,4 +203,8 @@ if(count($_COOKIE) ==0) echo "<h3>Advertencia: tu navegador tiene las cookies de
 ```
 * Averigua cómo se deshabilitan las cookies en Firefox y Chrome, y hazlo en ambos navegadores
 * Prueba tu aplicación en los dos navegadores y comprueba que obtienes el mensaje de error (incluye capturas)
+![9](9.png)
+![10](10.png)
+![11](11.png)
+![12](12.png)
 * Vuelve a configurar los navegadores para que admitan cookies
