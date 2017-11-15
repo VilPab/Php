@@ -44,6 +44,7 @@ Incluye capturas y bloques de código en los momentos relevantes
 
 ```php
 <?php
+
 if (session_status () == PHP_SESSION_NONE)
 	session_start ();
 if (isset ( $_SESSION ['contador'] ))
@@ -67,6 +68,8 @@ Observa que el código anterior puede hacerse más breve eliminando las llaves e
 * Ejecuta la aplicación en un navegador y observa las cookies. Incluye una captura en la que se vea cómo se llama la cookie que almacena la sesión existente, y cómo en lugar de indicarse fecha de caducidad se especifica que se trata de una cookie de sesión.
 * Observa que el contador no aparece representado como una cookie: es una variable interna de la sesión, almacenada en el servidor.
 * Ejecuta la aplicación varias veces y elimina la cookie de sesión de forma manual a través de las herramientas de desarrollador del navegador. Recarga la página y comprueba que se inicia una nueva sesión, con un nuevo identificador y el contador a 0. Recuerda que *session_start()* sirve tanto para recuperar una sesión existente como para crear una nueva.
+![19](19.png)
+
 
 ###### 2.2: Almacenamiento de la sesión en el servidor
 
@@ -75,14 +78,14 @@ Observa que el código anterior puede hacerse más breve eliminando las llaves e
 * Accede al archivo de configuración de PHP (*php.ini*) y localiza la ruta en la que se almacenan los datos de la sesión en el servidor (ver apuntes)
 * Accede ahora con el explorador de archivos a esa carpeta, y localiza el archivo cuyo nombre coincida con el identificador de tu sesión
 * Ábrelo con un editor de texto e incluye una captura del contenido
-
+![14](13.png)
 ###### 2.3: Renombrado de la sesión
 
 * Utilizando la función `session_name`, logra que la cookie de sesión se llame 'idSesion00' (siendo 00 tu número de equipo)
 * Ejecuta tu aplicación e incluye captura de la cookie una vez funcione.
 * Observa que la sesión con el nombre anterior no se elimina hasta que cierres el navegador.
 * Ten en cuenta que haremos varias prácticas con sesiones, y muchas pueden convivir (si por ejemplo pruebas varias prácticas en distintas pestañas del navegador). Por eso es interesante que nombres tus sesiones de forma que se identifique fácilment a qué proyecto pertenecen.
-
+![14](14.png)
 ###### 2.4: Eliminación de una variable de sesión: reinicio del contador
 
 * Añade en el código HTML generado por tu página un enlace para reiniciar el contador:
@@ -163,7 +166,61 @@ else {
 * Comprueba que ahora, al pulsar en el enlace, la cookie de sesión ha desaparecido y la aplicación muestra el mensaje de que no hay sesión iniciada
 * Observa que si recargas la página, se iniciará una nueva sesión: comprueba que su identificador es nuevo, diferente al de la sesión anterior, que ya no existe.
 
+![14](15.png)
+![14](16.png)
 ###### 2.6: Modificación de una variable de sesión
 
 * Añade un formulario al código, de forma que el administrador pueda modificar manualmente el número de visitas. Por ejemplo, si introduce el valor *100* en el formulario, la siguiente visita que se contabilizará será la *101*.
 
+```php
+<?php
+if(session_status() == PHP_SESSION_NONE) {
+    session_name("idSesion12");
+    session_start();
+}
+if(isset( $_POST["visitas"])){
+    $_SESSION['contador']=$_POST["visitas"]+$_SESSION['contador'];
+}
+if (isset($_REQUEST["reiniciarContador"])) {
+    unset($_SESSION["contador"]);
+}
+if (isset($_REQUEST["cerrarSesion"])) {
+    $_SESSION=array();
+    session_unset();
+    if (ini_get("session.use_cookies")) {
+        $params = session_get_cookie_params();
+        setcookie(session_name(), '', time() - 42000,
+            $params["path"], $params["domain"],
+            $params["secure"], $params["httponly"]
+        );
+    }
+    session_destroy();
+}
+
+if(session_status() == PHP_SESSION_NONE)
+    $mensaje = "No hay sesión iniciada";
+else {
+    if(isset( $_SESSION['contador']))
+        $_SESSION['contador']+= 1;
+    else
+        $_SESSION['contador']=1;
+    $mensaje = "Has visitado esta página ". $_SESSION['contador']." veces en esta sesión.";
+}
+?>
+<html>
+<head>
+    <title>Sesiones</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<h3><?php echo $mensaje;?></h3>
+<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8"); ?> " method="post">
+    Cambiar visitas:<input type="number" value="" name="visitas">
+</form>
+<p><a href="<?php echo $_SERVER['PHP_SELF']?>">Recargar la página</a></p>
+<p><a href="<?php echo $_SERVER['PHP_SELF']."?reiniciarContador=true"?>">Reiniciar contador</a></p>
+<p><a href="<?php echo $_SERVER['PHP_SELF']."?cerrarSesion=true"?>">Cerrar sesión</a></p>
+</body></html>
+```
+![17](17.png)
+![18](18.png)
