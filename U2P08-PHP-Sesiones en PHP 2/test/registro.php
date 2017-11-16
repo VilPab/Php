@@ -17,8 +17,27 @@ if(isset($_POST["nombre"])) {
 
 else{
     ?>
-    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8"); ?> " method="post">
+    <html>
+    <header>
+        <link rel="stylesheet" href="../estilos/style.css">
+    </header>
+    <body>
+    <div class="login">
+        <div class="login-triangle"></div>
+
+        <h2 class="login-header">Empezar Juego</h2>
+
+    <div class="form">
+    <form class="login-container" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8"); ?> " method="post">
         Nombre:<input type="text" name="nombre">
     </form>
+    </div>
+</div>
+    </body>
+    </html>
 <?php  }
 ?>
+
+
+
+

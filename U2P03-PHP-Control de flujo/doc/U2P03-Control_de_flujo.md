@@ -503,20 +503,20 @@ if (!isset($_POST['enviar'])) {
 <?php } else {
         $numero=$_POST["numero"];
         $contador=1;
-        echo "<table style='border-color: black;'>";
+        echo "estilos";
 
 
         for($i=0;$i<$numero;$i++){
             if($i%2==0){
-                echo"<tr style='background: lightgray;'>";
+                echo"estilos";
 
             }
             else{
-                echo"<tr style='background: lightblue;'>";
+                echo"estilos";
             }
             for($x=0;$x<$numero;$x++){
 
-                    echo "<td style='padding: 0.3cm;'>$contador</td>";
+                    echo "estilos$contador</td>";
                     $contador++;
             }
             echo "</td>";

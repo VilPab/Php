@@ -23,20 +23,20 @@ if (!isset($_POST['enviar'])) {
 <?php } else {
         $numero=$_POST["numero"];
 
-        echo "<table border='1' style='border-color: black;'>";
+        echo "<table border='1' estilos='border-color: black;'>";
 
 
         for($i=1;$i<=$numero;$i++){
             if($i%2==0){
-                echo"<tr style='background: lightgray;'>";
+                echo"<tr estilos='background: lightgray;'>";
 
             }
             else{
-                echo"<tr style='background: lightblue;'>";
+                echo"<tr estilos='background: lightblue;'>";
             }
             for($x=1;$x<=$numero;$x++){
 
-                    echo "<td style='padding: 0.3cm;'>".($x*$i)."</td>";
+                    echo "<td estilos='padding: 0.3cm;'>".($x*$i)."</td>";
 
             }
             echo "</td>";
