@@ -1,6 +1,8 @@
 <?php
-session_name("idSesionRegistro");
-session_start();
+if(session_status() == PHP_SESSION_NONE) {
+    session_name("idSesionRegistro");
+    session_start();
+}
 if(!isset($_SESSION["jugador"])) {
     header("Location:registro.php");
 }
@@ -29,8 +31,8 @@ else{
     </header>
     <body class="pregunta2">
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8"); ?> " method="post">
-        ¿Quien canta Rolling in the deep?
-        Respuesta:<input type="text" name="respuesta2">
+        ¿Quien canta Rolling in the deep?<br>
+        <input type="text" name="respuesta2">
     </form>
     </body>
     </form>

@@ -1,6 +1,8 @@
 <?php
-session_name("idSesionRegistro");
-session_start();
+if(session_status() == PHP_SESSION_NONE) {
+    session_name("idSesionRegistro");
+    session_start();
+}
 if (isset($_REQUEST["cerrarSesion"])) {
     $_SESSION=array();
     session_unset();
@@ -32,7 +34,7 @@ if(!isset($_SESSION["jugador"])) {
 
     <br>
     <a href="test1.php" style="margin-left: 135px;">Empezar el juego</a>
-            <p><a href="<?php echo $_SERVER['PHP_SELF']."?cerrarSesion=true"?>" style="margin-left: 125px;">Reiniciar el juego</a></p>
+            <p><a href="<?php echo $_SERVER['PHP_SELF']."?cerrarSesion=true"?>" style="margin-left: 125px;">Cerrar Sesión</a></p>
     </div>
     </div>
     </body>

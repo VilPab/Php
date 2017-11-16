@@ -1,6 +1,8 @@
 <?php
-session_name("idSesionRegistro");
-session_start();
+if(session_status() == PHP_SESSION_NONE) {
+    session_name("idSesionRegistro");
+    session_start();
+}
 if(!isset($_SESSION["jugador"])) {
     header("Location:registro.php");
 }
@@ -28,8 +30,8 @@ else{
     </header>
     <body class="pregunta1">
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8"); ?> " method="post">
-        ¿En que serie aparecen los caminantes blancos?
-        Respuesta:<input type="text" name="respuesta1">
+        ¿En que serie aparecen los caminantes blancos?<br>
+        <input type="text" name="respuesta1">
     </body>
     </form>
     </html>
