@@ -5,7 +5,7 @@
       <webServer id="64a37c45-778b-487d-912c-354ec3e4e8ed" name="Casa" url="http://localhost/Php">
         <fileTransfer port="0" mountedRoot="$PROJECT_DIR$" accessType="MOUNT" />
       </webServer>
-      <webServer id="2f61177c-c8a0-4a2f-9ef4-075f2fcabc76" name="clase" url="http://clase.com">
+      <webServer id="2f61177c-c8a0-4a2f-9ef4-075f2fcabc76" name="clase" url="http://clase.dev">
         <fileTransfer port="0" mountedRoot="$PROJECT_DIR$" accessType="MOUNT" />
       </webServer>
     </option>

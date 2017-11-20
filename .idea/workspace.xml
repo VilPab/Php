@@ -2,11 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7be52ea-ea93-4663-92ce-313e8f658866" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/cuadrado.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc/U2P04-Objetos.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2-PHP-Pablo Villar Garcia.rar" afterPath="$PROJECT_DIR$/U2-PHP-Pablo Villar Garcia.rar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P03-PHP-Control de flujo/doc/U2P03.png" afterPath="$PROJECT_DIR$/U2P03-PHP-Control de flujo/doc/U2P03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/1.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/10.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/11.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/12.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/2.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/3.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/4.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/5.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/6.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/7.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/8.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/9.png" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/1.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/10.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/11.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/12.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/13.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/14.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/15.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/15.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/16.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/17.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/17.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/18.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/18.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/19.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/19.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/2.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/3.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/4.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/5.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/6.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/7.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/8.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/9.png" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/img/FUEGOS ARTIFICIALES .png" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/img/FUEGOS ARTIFICIALES .png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Php.iml" afterPath="$PROJECT_DIR$/.idea/Php.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-acumulador.php" afterPath="$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-acumulador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-cuadrado.php" afterPath="$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-cuadrado.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-multiplos.php" afterPath="$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-multiplos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc/U2P04-Objetos.md" afterPath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc/U2P04-Objetos.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/index.php" afterPath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/rectangulo.php" afterPath="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/rectangulo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P05 - PHP-Validación de formularios/doc/U2P05-Validacion.md" afterPath="$PROJECT_DIR$/U2P05 - PHP-Validación de formularios/doc/U2P05-Validacion.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P05 - PHP-Validación de formularios/index.php" afterPath="$PROJECT_DIR$/U2P05 - PHP-Validación de formularios/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P05 - PHP-Validación de formularios/index2.php" afterPath="$PROJECT_DIR$/U2P05 - PHP-Validación de formularios/index2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P05 - PHP-Validación de formularios/validaciones.php" afterPath="$PROJECT_DIR$/U2P05 - PHP-Validación de formularios/validaciones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/cookies/color.php" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/cookies/color.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/cookies/cookies.php" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/cookies/cookies.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/U2P06-Cookies en PHP.md" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/U2P06-Cookies en PHP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/UT2-2-Cookies en PHP.md.html" afterPath="$PROJECT_DIR$/U2P06-PHP-Cookies en PHP/doc/UT2-2-Cookies en PHP.md.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/U2P07-Sesiones en PHP.md" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/doc/U2P07-Sesiones en PHP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/sesiones/contador.php" afterPath="$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/sesiones/contador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/doc/U2P08-Sesiones en PHP 2.md" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/doc/U2P08-Sesiones en PHP 2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/doc/UT2-3-Sesiones en PHP.md.html" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/doc/UT2-3-Sesiones en PHP.md.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/estilos/style.css" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/estilos/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/saludo/saludo.php" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/saludo/saludo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/registro.php" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/registro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/resultado.php" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/resultado.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/test1.php" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/test1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/test2.php" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/test2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/test3.php" afterPath="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/test3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md" afterPath="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,10 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="U2P04-Objetos.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc/U2P04-Objetos.md">
+      <file leaf-file-name="U3P01-Gestión de BBDD con MariaDB.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
+            <state split_layout="SECOND">
               <first_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
@@ -30,21 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cuadrado.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/cuadrado.php">
+      <file leaf-file-name="localhost.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,11 +123,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="652" />
+    <option name="y" value="54" />
     <option name="width" value="1295" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -91,8 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +169,11 @@
               <item name="U2P04-PHP-Clases y Objetos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="doc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="U3P01-Gestión de BBDD con MariaDB" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,15 +182,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Escritorio/JavaScript" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB" />
+      <recent name="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -158,33 +217,37 @@
       <option name="presentableId" value="Default" />
       <updated>1509356473052</updated>
       <workItem from="1509356481824" duration="1654000" />
+      <workItem from="1511177310040" duration="354000" />
+      <workItem from="1511177766036" duration="22000" />
+      <workItem from="1511177879994" duration="1873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1654000" />
+    <option name="totallyTimeSpent" value="3903000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-28" width="1296" height="730" extended-state="6" />
+    <frame x="652" y="54" width="1295" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27083334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26949808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -210,11 +273,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-diferencia.php">
+    <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="360">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-diferencia.php" />
+    <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/cuadrado.php" />
+    <entry file="file://$PROJECT_DIR$/U2P03-PHP-Control de flujo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U2P03-PHP-Control de flujo/ecf-recorte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc/U2P04-Objetos.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -226,10 +318,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/cuadrado.php">
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
