@@ -8,18 +8,7 @@
         <th>Imagen</th>
     </tr>
     <?php
-    $servidor = "localhost";
-    $usuario = "alumno_rw";
-    $clave = "dwes";
-
-    $conexion = new mysqli($servidor,$usuario,$clave,"animales");
-    $conexion->query("SET NAMES 'UTF8'");
-    $conexion ->query("UPDATE animal SET especie='jabali' WHERE nombre='Babe'");
-
-    $conexion ->query ("DROP TABLE animal");
-    echo "<h3 style='color:red'>". $conexion->error ."</h3>";
-
-    echo "<h3 style='color:red'>". $conexion->error ."</h3>";
+    include("conect.php");
     $resultado = $conexion -> query("SELECT * FROM animal ORDER BY chip");
     if($resultado->num_rows === 0) echo "<p>No hay animales en la base de datos</p>";
     while($fila=$resultado->fetch_assoc()) {

@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7be52ea-ea93-4663-92ce-313e8f658866" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/img/babe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/img/baxter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/img/garfield.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/img/odie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/doc/U3P02-Acceso a BBDD en PHP.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/doc/UT3-1-PHP.md.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/cuidador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,55 +32,37 @@
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/html" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Php" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="U3P02-Acceso a BBDD en PHP.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="U3P02-Acceso a BBDD en PHP.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/doc/U3P02-Acceso a BBDD en PHP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
               <first_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding>
-                  <marker date="1511308832000" expanded="true" signature="1048:1114" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="1178:1405" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="1766:2143" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="1892:2009" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="2017:2141" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="2728:3568" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="2953:3070" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="3339:3507" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="5552:5994" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="5761:5992" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="6327:6742" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="6529:6738" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="7471:7607" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="7895:7995" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="8288:9397" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="9245:9395" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="9301:9378" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="10289:10791" ph="..." />
-                  <marker date="1511308832000" expanded="true" signature="10609:10775" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="1048:1114" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="1178:1405" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="1766:2143" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="1892:2009" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="2017:2141" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="2728:3568" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="2953:3070" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="3339:3507" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="5552:5994" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="5761:5992" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="6327:6742" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="6529:6738" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="7471:7607" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="7895:7995" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="8288:9397" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="9245:9395" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="9301:9378" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="10289:10791" ph="..." />
+                  <marker date="1511373706329" expanded="true" signature="10609:10775" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conexion4.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <marker date="1511350611270" expanded="true" signature="248:302" ph="UPDATE anima... " />
-                <marker date="1511350611270" expanded="true" signature="327:336" ph="..." />
-                <marker date="1511350611270" expanded="true" signature="405:439" ph="SELECT * FRO... animal" />
-                <marker date="1511350611270" expanded="true" signature="599:626" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -97,9 +72,62 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexion6.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding>
-                <marker date="1511350523802" expanded="true" signature="262:296" ph="SELECT * FRO... animal" />
-                <marker date="1511350523802" expanded="true" signature="456:483" ph="..." />
+                <marker date="1511377406541" expanded="true" signature="262:296" ph="SELECT * FRO... animal" />
+                <marker date="1511377406541" expanded="true" signature="456:483" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexion5.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion5.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <marker date="1511377291371" expanded="true" signature="225:247" ph="SELECT * FRO... cuidador" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cuidador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/cuidador.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+              <folding>
+                <marker date="1511377381127" expanded="true" signature="280:322" ph="SELECT * FRO... cuidador" />
+                <marker date="1511377381127" expanded="true" signature="398:440" ph="SELECT * FRO... cuidador" />
+                <marker date="1511377381127" expanded="true" signature="827:931" ph="SELECT anima... animal" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexion4.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <marker date="1511377039269" expanded="true" signature="408:462" ph="UPDATE anima... " />
+                <marker date="1511377039269" expanded="true" signature="491:508" ph="DROP TABLE a... " />
+                <marker date="1511377039269" expanded="true" signature="533:542" ph="..." />
+                <marker date="1511377039269" expanded="true" signature="596:605" ph="..." />
+                <marker date="1511377039269" expanded="true" signature="674:708" ph="SELECT * FRO... animal" />
+                <marker date="1511377039269" expanded="true" signature="868:895" ph="..." />
               </folding>
             </state>
           </provider>
@@ -108,13 +136,9 @@
       <file leaf-file-name="conexion2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
-              <folding>
-                <marker date="1511349993865" expanded="true" signature="357:455" ph="SELECT * FRO... animal" />
-                <marker date="1511349993865" expanded="true" signature="493:529" ph="SELECT * FRO... animal" />
-                <marker date="1511349993865" expanded="true" signature="956:994" ph="SELECT * FRO... cuidador" />
-              </folding>
+            <state relative-caret-position="465">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,17 +147,7 @@
         <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="6" column="37" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -156,6 +170,9 @@
         <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conect.php" />
         <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion3.php" />
         <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php" />
+        <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion5.php" />
+        <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/cuidador.php" />
+        <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6.php" />
       </list>
     </option>
   </component>
@@ -169,8 +186,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1231" />
-    <option name="height" value="706" />
+    <option name="width" value="1295" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -187,8 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,16 +216,24 @@
               <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="U3P02-PHP-BBDD" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="U3P02-PHP-BBDD" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="doc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Escritorio/proyecto/interfaces" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -260,6 +283,9 @@
       <workItem from="1511336290285" duration="429000" />
       <workItem from="1511342908253" duration="2972000" />
       <workItem from="1511349159416" duration="1489000" />
+      <workItem from="1511373718944" duration="656000" />
+      <workItem from="1511376319908" duration="672000" />
+      <workItem from="1511377069955" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="CLase">
       <created>1511179843641</created>
@@ -279,26 +305,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12778000" />
+    <option name="totallyTimeSpent" value="14553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1295" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25780624" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26699835" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979983" sideWeight="0.49455675" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25380304" sideWeight="0.5116641" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -323,57 +348,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/doc/U3P02-Acceso a BBDD en PHP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1511308832000" expanded="true" signature="1048:1114" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="1178:1405" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="1766:2143" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="1892:2009" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="2017:2141" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="2728:3568" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="2953:3070" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="3339:3507" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="5552:5994" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="5761:5992" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="6327:6742" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="6529:6738" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="7471:7607" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="7895:7995" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="8288:9397" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="9245:9395" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="9301:9378" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="10289:10791" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="10609:10775" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="101" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="101" />
-          <folding>
-            <marker date="1511349993865" expanded="true" signature="357:455" ph="SELECT * FRO... animal" />
-            <marker date="1511349993865" expanded="true" signature="493:529" ph="SELECT * FRO... animal" />
-            <marker date="1511349993865" expanded="true" signature="956:994" ph="SELECT * FRO... cuidador" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -624,17 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -645,49 +612,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/doc/UT3-1-PHP.md.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/registro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="18">
             <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/doc/UT3-1-PHP.md.html">
+    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/resultado.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php">
+    <entry file="file://$PROJECT_DIR$/U2P07-PHP-Sesiones en PHP/sesiones/contador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <marker date="1511349993865" expanded="true" signature="357:455" ph="SELECT * FRO... animal" />
-            <marker date="1511349993865" expanded="true" signature="493:529" ph="SELECT * FRO... animal" />
-            <marker date="1511349993865" expanded="true" signature="956:994" ph="SELECT * FRO... cuidador" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="162">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <caret line="6" column="37" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <marker date="1511377039269" expanded="true" signature="408:462" ph="UPDATE anima... " />
+            <marker date="1511377039269" expanded="true" signature="491:508" ph="DROP TABLE a... " />
+            <marker date="1511377039269" expanded="true" signature="533:542" ph="..." />
+            <marker date="1511377039269" expanded="true" signature="596:605" ph="..." />
+            <marker date="1511377039269" expanded="true" signature="674:708" ph="SELECT * FRO... animal" />
+            <marker date="1511377039269" expanded="true" signature="868:895" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1511377291371" expanded="true" signature="225:247" ph="SELECT * FRO... cuidador" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/cuidador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <marker date="1511377381127" expanded="true" signature="280:322" ph="SELECT * FRO... cuidador" />
+            <marker date="1511377381127" expanded="true" signature="398:440" ph="SELECT * FRO... cuidador" />
+            <marker date="1511377381127" expanded="true" signature="827:931" ph="SELECT anima... animal" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -695,9 +721,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
-            <marker date="1511350523802" expanded="true" signature="262:296" ph="SELECT * FRO... animal" />
-            <marker date="1511350523802" expanded="true" signature="456:483" ph="..." />
+            <marker date="1511377406541" expanded="true" signature="262:296" ph="SELECT * FRO... animal" />
+            <marker date="1511377406541" expanded="true" signature="456:483" ph="..." />
           </folding>
         </state>
       </provider>
@@ -708,41 +742,28 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1511308832000" expanded="true" signature="1048:1114" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="1178:1405" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="1766:2143" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="1892:2009" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="2017:2141" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="2728:3568" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="2953:3070" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="3339:3507" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="5552:5994" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="5761:5992" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="6327:6742" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="6529:6738" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="7471:7607" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="7895:7995" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="8288:9397" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="9245:9395" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="9301:9378" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="10289:10791" ph="..." />
-              <marker date="1511308832000" expanded="true" signature="10609:10775" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="1048:1114" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="1178:1405" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="1766:2143" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="1892:2009" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="2017:2141" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="2728:3568" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="2953:3070" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="3339:3507" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="5552:5994" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="5761:5992" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="6327:6742" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="6529:6738" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="7471:7607" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="7895:7995" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="8288:9397" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="9245:9395" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="9301:9378" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="10289:10791" ph="..." />
+              <marker date="1511373706329" expanded="true" signature="10609:10775" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <marker date="1511350611270" expanded="true" signature="248:302" ph="UPDATE anima... " />
-            <marker date="1511350611270" expanded="true" signature="327:336" ph="..." />
-            <marker date="1511350611270" expanded="true" signature="405:439" ph="SELECT * FRO... animal" />
-            <marker date="1511350611270" expanded="true" signature="599:626" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
