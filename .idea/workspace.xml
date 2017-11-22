@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7be52ea-ea93-4663-92ce-313e8f658866" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/catalogo12(1).sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/img/babe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/img/baxter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/img/garfield.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/img/odie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/doc/U3P02-Acceso a BBDD en PHP.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/doc/UT3-1-PHP.md.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md" afterPath="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,34 +39,37 @@
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/html" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Php" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="U3P01-Gestión de BBDD con MariaDB.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
+      <file leaf-file-name="U3P02-Acceso a BBDD en PHP.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/doc/U3P02-Acceso a BBDD en PHP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="252">
-                <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding>
-                  <marker date="1511268879817" expanded="true" signature="12341:12405" ph="/*!40101 SET... " />
-                  <marker date="1511268879817" expanded="true" signature="12407:12473" ph="/*!40101 SET... " />
-                  <marker date="1511268879817" expanded="true" signature="12475:12539" ph="/*!40101 SET... " />
-                  <marker date="1511268879817" expanded="true" signature="12541:12570" ph="/*!40101 SET... " />
-                  <marker date="1511268879817" expanded="true" signature="12837:13100" ph="CREATE TABLE... autor" />
-                  <marker date="1511268879817" expanded="true" signature="13152:13441" ph="INSERT INTO `autor`... " />
-                  <marker date="1511268879817" expanded="true" signature="13556:13900" ph="CREATE TABLE... obra" />
-                  <marker date="1511268879817" expanded="true" signature="13951:14219" ph="INSERT INTO `obra`... " />
-                  <marker date="1511268879817" expanded="true" signature="14337:14670" ph="CREATE TABLE... usuario" />
-                  <marker date="1511268879817" expanded="true" signature="14724:14863" ph="INSERT INTO `usuario`... " />
-                  <marker date="1511268879817" expanded="true" signature="14942:14991" ph="ALTER TABLE `autor`... " />
-                  <marker date="1511268879817" expanded="true" signature="15030:15117" ph="ALTER TABLE `obra`... " />
-                  <marker date="1511268879817" expanded="true" signature="15159:15208" ph="ALTER TABLE `usuario`... " />
-                  <marker date="1511268879817" expanded="true" signature="15303:15392" ph="ALTER TABLE `autor`... " />
-                  <marker date="1511268879817" expanded="true" signature="15438:15525" ph="ALTER TABLE `obra`... " />
-                  <marker date="1511268879817" expanded="true" signature="15611:15754" ph="ALTER TABLE `obra`... " />
-                  <marker date="1511268879817" expanded="true" signature="15765:15827" ph="/*!40101 SET... " />
-                  <marker date="1511268879817" expanded="true" signature="15829:15893" ph="/*!40101 SET... " />
-                  <marker date="1511268879817" expanded="true" signature="15895:15957" ph="/*!40101 SET... " />
+                  <marker date="1511308832000" expanded="true" signature="1048:1114" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="1178:1405" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="1766:2143" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="1892:2009" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="2017:2141" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="2728:3568" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="2953:3070" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="3339:3507" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="5552:5994" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="5761:5992" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="6327:6742" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="6529:6738" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="7471:7607" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="7895:7995" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="8288:9397" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="9245:9395" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="9301:9378" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="10289:10791" ph="..." />
+                  <marker date="1511308832000" expanded="true" signature="10609:10775" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -66,97 +77,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="U3P01-Gestión de BBDD con MariaDB.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.html">
+      <file leaf-file-name="conexion4.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalogo12(1).sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/catalogo12(1).sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="localhost.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="216">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
-                <marker date="1511179751000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-                <marker date="1511179751000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-                <marker date="1511179751000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-                <marker date="1511179751000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-                <marker date="1511179751000" expanded="true" signature="821:1154" ph="CREATE TABLE... usuario" />
-                <marker date="1511179751000" expanded="true" signature="1235:1284" ph="ALTER TABLE `usuario`... " />
-                <marker date="1511179751000" expanded="true" signature="1551:1905" ph="CREATE TABLE... pma__bookmark" />
-                <marker date="1511179751000" expanded="true" signature="2036:2541" ph="CREATE TABLE... pma__central_columns" />
-                <marker date="1511179751000" expanded="true" signature="2668:3463" ph="CREATE TABLE... pma__column_info" />
-                <marker date="1511179751000" expanded="true" signature="3596:3829" ph="CREATE TABLE... pma__designer_settings" />
-                <marker date="1511179751000" expanded="true" signature="3961:4332" ph="CREATE TABLE... pma__export_templates" />
-                <marker date="1511179751000" expanded="true" signature="4456:4660" ph="CREATE TABLE... pma__favorite" />
-                <marker date="1511179751000" expanded="true" signature="4783:5224" ph="CREATE TABLE... pma__history" />
-                <marker date="1511179751000" expanded="true" signature="5356:5752" ph="CREATE TABLE... pma__navigationhiding" />
-                <marker date="1511179751000" expanded="true" signature="5877:6173" ph="CREATE TABLE... pma__pdf_pages" />
-                <marker date="1511179751000" expanded="true" signature="6295:6506" ph="CREATE TABLE... pma__recent" />
-                <marker date="1511179751000" expanded="true" signature="6564:6679" ph="INSERT INTO `pma__recent`... " />
-                <marker date="1511179751000" expanded="true" signature="6803:7310" ph="CREATE TABLE... pma__relation" />
-                <marker date="1511179751000" expanded="true" signature="7439:7824" ph="CREATE TABLE... pma__savedsearches" />
-                <marker date="1511179751000" expanded="true" signature="7952:8356" ph="CREATE TABLE... pma__table_coords" />
-                <marker date="1511179751000" expanded="true" signature="8482:8805" ph="CREATE TABLE... pma__table_info" />
-                <marker date="1511179751000" expanded="true" signature="8934:9345" ph="CREATE TABLE... pma__table_uiprefs" />
-                <marker date="1511179751000" expanded="true" signature="9469:10279" ph="CREATE TABLE... pma__tracking" />
-                <marker date="1511179751000" expanded="true" signature="10405:10728" ph="CREATE TABLE... pma__userconfig" />
-                <marker date="1511179751000" expanded="true" signature="10790:10965" ph="INSERT INTO `pma__userconfig`... " />
-                <marker date="1511179751000" expanded="true" signature="11091:11390" ph="CREATE TABLE... pma__usergroups" />
-                <marker date="1511179751000" expanded="true" signature="11511:11749" ph="CREATE TABLE... pma__users" />
-                <marker date="1511179751000" expanded="true" signature="11836:11888" ph="ALTER TABLE `pma__bookmark`... " />
-                <marker date="1511179751000" expanded="true" signature="11943:12018" ph="ALTER TABLE `pma__central_columns`... " />
-                <marker date="1511179751000" expanded="true" signature="12069:12191" ph="ALTER TABLE `pma__column_info`... " />
-                <marker date="1511179751000" expanded="true" signature="12248:12315" ph="ALTER TABLE `pma__designer_settings`... " />
-                <marker date="1511179751000" expanded="true" signature="12371:12515" ph="ALTER TABLE `pma__export_templates`... " />
-                <marker date="1511179751000" expanded="true" signature="12563:12621" ph="ALTER TABLE `pma__favorite`... " />
-                <marker date="1511179751000" expanded="true" signature="12668:12779" ph="ALTER TABLE `pma__history`... " />
-                <marker date="1511179751000" expanded="true" signature="12835:12948" ph="ALTER TABLE `pma__navigationhiding`... " />
-                <marker date="1511179751000" expanded="true" signature="12997:13088" ph="ALTER TABLE `pma__pdf_pages`... " />
-                <marker date="1511179751000" expanded="true" signature="13134:13190" ph="ALTER TABLE `pma__recent`... " />
-                <marker date="1511179751000" expanded="true" signature="13238:13385" ph="ALTER TABLE `pma__relation`... " />
-                <marker date="1511179751000" expanded="true" signature="13438:13584" ph="ALTER TABLE `pma__savedsearches`... " />
-                <marker date="1511179751000" expanded="true" signature="13636:13728" ph="ALTER TABLE `pma__table_coords`... " />
-                <marker date="1511179751000" expanded="true" signature="13778:13850" ph="ALTER TABLE `pma__table_info`... " />
-                <marker date="1511179751000" expanded="true" signature="13903:13989" ph="ALTER TABLE `pma__table_uiprefs`... " />
-                <marker date="1511179751000" expanded="true" signature="14037:14117" ph="ALTER TABLE `pma__tracking`... " />
-                <marker date="1511179751000" expanded="true" signature="14167:14227" ph="ALTER TABLE `pma__userconfig`... " />
-                <marker date="1511179751000" expanded="true" signature="14277:14354" ph="ALTER TABLE `pma__usergroups`... " />
-                <marker date="1511179751000" expanded="true" signature="14399:14466" ph="ALTER TABLE `pma__users`... " />
-                <marker date="1511179751000" expanded="true" signature="14569:14642" ph="ALTER TABLE `pma__bookmark`... " />
-                <marker date="1511179751000" expanded="true" signature="14700:14784" ph="ALTER TABLE `pma__column_info`... " />
-                <marker date="1511179751000" expanded="true" signature="14847:14936" ph="ALTER TABLE `pma__export_templates`... " />
-                <marker date="1511179751000" expanded="true" signature="14990:15074" ph="ALTER TABLE `pma__history`... " />
-                <marker date="1511179751000" expanded="true" signature="15130:15218" ph="ALTER TABLE `pma__pdf_pages`... " />
-                <marker date="1511179751000" expanded="true" signature="15278:15364" ph="ALTER TABLE `pma__savedsearches`... " />
-                <marker date="1511179751000" expanded="true" signature="15511:15573" ph="/*!40101 SET... " />
-                <marker date="1511179751000" expanded="true" signature="15575:15639" ph="/*!40101 SET... " />
-                <marker date="1511179751000" expanded="true" signature="15641:15703" ph="/*!40101 SET... " />
+                <marker date="1511350611270" expanded="true" signature="248:302" ph="UPDATE anima... " />
+                <marker date="1511350611270" expanded="true" signature="327:336" ph="..." />
+                <marker date="1511350611270" expanded="true" signature="405:439" ph="SELECT * FRO... animal" />
+                <marker date="1511350611270" expanded="true" signature="599:626" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
+      <file leaf-file-name="conexion3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
+              <folding>
+                <marker date="1511350523802" expanded="true" signature="262:296" ph="SELECT * FRO... animal" />
+                <marker date="1511350523802" expanded="true" signature="456:483" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexion2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <marker date="1511349993865" expanded="true" signature="357:455" ph="SELECT * FRO... animal" />
+                <marker date="1511349993865" expanded="true" signature="493:529" ph="SELECT * FRO... animal" />
+                <marker date="1511349993865" expanded="true" signature="956:994" ph="SELECT * FRO... cuidador" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,6 +151,11 @@
         <option value="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/cuadrado.php" />
         <option value="$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php" />
         <option value="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md" />
+        <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php" />
+        <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php" />
+        <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conect.php" />
+        <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion3.php" />
+        <option value="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php" />
       </list>
     </option>
   </component>
@@ -185,10 +167,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="648" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="648" />
-    <option name="height" value="670" />
+    <option name="width" value="1231" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -205,6 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,42 +199,28 @@
             <path>
               <item name="Php" type="b2602c69:ProjectViewProjectNode" />
               <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U2P03-PHP-Control de flujo" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U2P04-PHP-Clases y Objetos" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U2P04-PHP-Clases y Objetos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="doc" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U3P01-Gestión de BBDD con MariaDB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="U3P02-PHP-BBDD" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Escritorio/proyecto/interfaces" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/U3P02-Acceso a BBDD en PHP/doc" />
       <recent name="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/U3P02-PHP-BBDD" />
+      <recent name="$PROJECT_DIR$/U3P02-PHP-BBDD/doc" />
+      <recent name="$PROJECT_DIR$/U3P02-Acceso a BBDD en PHP" />
       <recent name="$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB" />
       <recent name="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos" />
     </key>
@@ -286,7 +256,10 @@
       <workItem from="1511255475212" duration="50000" />
       <workItem from="1511264374200" duration="992000" />
       <workItem from="1511266490202" duration="600000" />
-      <workItem from="1511268276714" duration="1509000" />
+      <workItem from="1511268276714" duration="1542000" />
+      <workItem from="1511336290285" duration="429000" />
+      <workItem from="1511342908253" duration="2972000" />
+      <workItem from="1511349159416" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="CLase">
       <created>1511179843641</created>
@@ -295,25 +268,33 @@
       <option name="project" value="LOCAL" />
       <updated>1511179843641</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CLase">
+      <created>1511270325852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511270325852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7855000" />
+    <option name="totallyTimeSpent" value="12778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1231" height="706" extended-state="6" />
+    <frame x="65" y="-4" width="1295" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25780624" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979983" sideWeight="0.49455675" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25380304" sideWeight="0.5116641" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -336,38 +317,77 @@
     <option name="LAST_COMMIT_MESSAGE" value="CLase" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/doc/U3P02-Acceso a BBDD en PHP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
+        <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1511268879817" expanded="true" signature="12341:12405" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12407:12473" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12475:12539" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12541:12570" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12837:13100" ph="CREATE TABLE... autor" />
-              <marker date="1511268879817" expanded="true" signature="13152:13441" ph="INSERT INTO `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="13556:13900" ph="CREATE TABLE... obra" />
-              <marker date="1511268879817" expanded="true" signature="13951:14219" ph="INSERT INTO `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="14337:14670" ph="CREATE TABLE... usuario" />
-              <marker date="1511268879817" expanded="true" signature="14724:14863" ph="INSERT INTO `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="14942:14991" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15030:15117" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15159:15208" ph="ALTER TABLE `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="15303:15392" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15438:15525" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15611:15754" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15765:15827" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15829:15893" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15895:15957" ph="/*!40101 SET... " />
+              <marker date="1511308832000" expanded="true" signature="1048:1114" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="1178:1405" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="1766:2143" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="1892:2009" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="2017:2141" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="2728:3568" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="2953:3070" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="3339:3507" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="5552:5994" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="5761:5992" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="6327:6742" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="6529:6738" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="7471:7607" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="7895:7995" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="8288:9397" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="9245:9395" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="9301:9378" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="10289:10791" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="10609:10775" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="101" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="101" />
+          <folding>
+            <marker date="1511349993865" expanded="true" signature="357:455" ph="SELECT * FRO... animal" />
+            <marker date="1511349993865" expanded="true" signature="493:529" ph="SELECT * FRO... animal" />
+            <marker date="1511349993865" expanded="true" signature="956:994" ph="SELECT * FRO... cuidador" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -375,63 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1511179751000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="821:1154" ph="CREATE TABLE... usuario" />
-            <marker date="1511179751000" expanded="true" signature="1235:1284" ph="ALTER TABLE `usuario`... " />
-            <marker date="1511179751000" expanded="true" signature="1551:1905" ph="CREATE TABLE... pma__bookmark" />
-            <marker date="1511179751000" expanded="true" signature="2036:2541" ph="CREATE TABLE... pma__central_columns" />
-            <marker date="1511179751000" expanded="true" signature="2668:3463" ph="CREATE TABLE... pma__column_info" />
-            <marker date="1511179751000" expanded="true" signature="3596:3829" ph="CREATE TABLE... pma__designer_settings" />
-            <marker date="1511179751000" expanded="true" signature="3961:4332" ph="CREATE TABLE... pma__export_templates" />
-            <marker date="1511179751000" expanded="true" signature="4456:4660" ph="CREATE TABLE... pma__favorite" />
-            <marker date="1511179751000" expanded="true" signature="4783:5224" ph="CREATE TABLE... pma__history" />
-            <marker date="1511179751000" expanded="true" signature="5356:5752" ph="CREATE TABLE... pma__navigationhiding" />
-            <marker date="1511179751000" expanded="true" signature="5877:6173" ph="CREATE TABLE... pma__pdf_pages" />
-            <marker date="1511179751000" expanded="true" signature="6295:6506" ph="CREATE TABLE... pma__recent" />
-            <marker date="1511179751000" expanded="true" signature="6564:6679" ph="INSERT INTO `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="6803:7310" ph="CREATE TABLE... pma__relation" />
-            <marker date="1511179751000" expanded="true" signature="7439:7824" ph="CREATE TABLE... pma__savedsearches" />
-            <marker date="1511179751000" expanded="true" signature="7952:8356" ph="CREATE TABLE... pma__table_coords" />
-            <marker date="1511179751000" expanded="true" signature="8482:8805" ph="CREATE TABLE... pma__table_info" />
-            <marker date="1511179751000" expanded="true" signature="8934:9345" ph="CREATE TABLE... pma__table_uiprefs" />
-            <marker date="1511179751000" expanded="true" signature="9469:10279" ph="CREATE TABLE... pma__tracking" />
-            <marker date="1511179751000" expanded="true" signature="10405:10728" ph="CREATE TABLE... pma__userconfig" />
-            <marker date="1511179751000" expanded="true" signature="10790:10965" ph="INSERT INTO `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="11091:11390" ph="CREATE TABLE... pma__usergroups" />
-            <marker date="1511179751000" expanded="true" signature="11511:11749" ph="CREATE TABLE... pma__users" />
-            <marker date="1511179751000" expanded="true" signature="11836:11888" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="11943:12018" ph="ALTER TABLE `pma__central_columns`... " />
-            <marker date="1511179751000" expanded="true" signature="12069:12191" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="12248:12315" ph="ALTER TABLE `pma__designer_settings`... " />
-            <marker date="1511179751000" expanded="true" signature="12371:12515" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="12563:12621" ph="ALTER TABLE `pma__favorite`... " />
-            <marker date="1511179751000" expanded="true" signature="12668:12779" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="12835:12948" ph="ALTER TABLE `pma__navigationhiding`... " />
-            <marker date="1511179751000" expanded="true" signature="12997:13088" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="13134:13190" ph="ALTER TABLE `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="13238:13385" ph="ALTER TABLE `pma__relation`... " />
-            <marker date="1511179751000" expanded="true" signature="13438:13584" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="13636:13728" ph="ALTER TABLE `pma__table_coords`... " />
-            <marker date="1511179751000" expanded="true" signature="13778:13850" ph="ALTER TABLE `pma__table_info`... " />
-            <marker date="1511179751000" expanded="true" signature="13903:13989" ph="ALTER TABLE `pma__table_uiprefs`... " />
-            <marker date="1511179751000" expanded="true" signature="14037:14117" ph="ALTER TABLE `pma__tracking`... " />
-            <marker date="1511179751000" expanded="true" signature="14167:14227" ph="ALTER TABLE `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="14277:14354" ph="ALTER TABLE `pma__usergroups`... " />
-            <marker date="1511179751000" expanded="true" signature="14399:14466" ph="ALTER TABLE `pma__users`... " />
-            <marker date="1511179751000" expanded="true" signature="14569:14642" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="14700:14784" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="14847:14936" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="14990:15074" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="15130:15218" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="15278:15364" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="15511:15573" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15575:15639" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15641:15703" ph="/*!40101 SET... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -439,7 +402,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/catalogo12(1).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/catalogo12(1).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -448,27 +455,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1511268879817" expanded="true" signature="12341:12405" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12407:12473" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12475:12539" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12541:12570" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12837:13100" ph="CREATE TABLE... autor" />
-              <marker date="1511268879817" expanded="true" signature="13152:13441" ph="INSERT INTO `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="13556:13900" ph="CREATE TABLE... obra" />
-              <marker date="1511268879817" expanded="true" signature="13951:14219" ph="INSERT INTO `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="14337:14670" ph="CREATE TABLE... usuario" />
-              <marker date="1511268879817" expanded="true" signature="14724:14863" ph="INSERT INTO `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="14942:14991" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15030:15117" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15159:15208" ph="ALTER TABLE `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="15303:15392" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15438:15525" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15611:15754" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15765:15827" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15829:15893" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15895:15957" ph="/*!40101 SET... " />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -478,63 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1511179751000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="821:1154" ph="CREATE TABLE... usuario" />
-            <marker date="1511179751000" expanded="true" signature="1235:1284" ph="ALTER TABLE `usuario`... " />
-            <marker date="1511179751000" expanded="true" signature="1551:1905" ph="CREATE TABLE... pma__bookmark" />
-            <marker date="1511179751000" expanded="true" signature="2036:2541" ph="CREATE TABLE... pma__central_columns" />
-            <marker date="1511179751000" expanded="true" signature="2668:3463" ph="CREATE TABLE... pma__column_info" />
-            <marker date="1511179751000" expanded="true" signature="3596:3829" ph="CREATE TABLE... pma__designer_settings" />
-            <marker date="1511179751000" expanded="true" signature="3961:4332" ph="CREATE TABLE... pma__export_templates" />
-            <marker date="1511179751000" expanded="true" signature="4456:4660" ph="CREATE TABLE... pma__favorite" />
-            <marker date="1511179751000" expanded="true" signature="4783:5224" ph="CREATE TABLE... pma__history" />
-            <marker date="1511179751000" expanded="true" signature="5356:5752" ph="CREATE TABLE... pma__navigationhiding" />
-            <marker date="1511179751000" expanded="true" signature="5877:6173" ph="CREATE TABLE... pma__pdf_pages" />
-            <marker date="1511179751000" expanded="true" signature="6295:6506" ph="CREATE TABLE... pma__recent" />
-            <marker date="1511179751000" expanded="true" signature="6564:6679" ph="INSERT INTO `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="6803:7310" ph="CREATE TABLE... pma__relation" />
-            <marker date="1511179751000" expanded="true" signature="7439:7824" ph="CREATE TABLE... pma__savedsearches" />
-            <marker date="1511179751000" expanded="true" signature="7952:8356" ph="CREATE TABLE... pma__table_coords" />
-            <marker date="1511179751000" expanded="true" signature="8482:8805" ph="CREATE TABLE... pma__table_info" />
-            <marker date="1511179751000" expanded="true" signature="8934:9345" ph="CREATE TABLE... pma__table_uiprefs" />
-            <marker date="1511179751000" expanded="true" signature="9469:10279" ph="CREATE TABLE... pma__tracking" />
-            <marker date="1511179751000" expanded="true" signature="10405:10728" ph="CREATE TABLE... pma__userconfig" />
-            <marker date="1511179751000" expanded="true" signature="10790:10965" ph="INSERT INTO `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="11091:11390" ph="CREATE TABLE... pma__usergroups" />
-            <marker date="1511179751000" expanded="true" signature="11511:11749" ph="CREATE TABLE... pma__users" />
-            <marker date="1511179751000" expanded="true" signature="11836:11888" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="11943:12018" ph="ALTER TABLE `pma__central_columns`... " />
-            <marker date="1511179751000" expanded="true" signature="12069:12191" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="12248:12315" ph="ALTER TABLE `pma__designer_settings`... " />
-            <marker date="1511179751000" expanded="true" signature="12371:12515" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="12563:12621" ph="ALTER TABLE `pma__favorite`... " />
-            <marker date="1511179751000" expanded="true" signature="12668:12779" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="12835:12948" ph="ALTER TABLE `pma__navigationhiding`... " />
-            <marker date="1511179751000" expanded="true" signature="12997:13088" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="13134:13190" ph="ALTER TABLE `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="13238:13385" ph="ALTER TABLE `pma__relation`... " />
-            <marker date="1511179751000" expanded="true" signature="13438:13584" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="13636:13728" ph="ALTER TABLE `pma__table_coords`... " />
-            <marker date="1511179751000" expanded="true" signature="13778:13850" ph="ALTER TABLE `pma__table_info`... " />
-            <marker date="1511179751000" expanded="true" signature="13903:13989" ph="ALTER TABLE `pma__table_uiprefs`... " />
-            <marker date="1511179751000" expanded="true" signature="14037:14117" ph="ALTER TABLE `pma__tracking`... " />
-            <marker date="1511179751000" expanded="true" signature="14167:14227" ph="ALTER TABLE `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="14277:14354" ph="ALTER TABLE `pma__usergroups`... " />
-            <marker date="1511179751000" expanded="true" signature="14399:14466" ph="ALTER TABLE `pma__users`... " />
-            <marker date="1511179751000" expanded="true" signature="14569:14642" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="14700:14784" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="14847:14936" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="14990:15074" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="15130:15218" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="15278:15364" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="15511:15573" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15575:15639" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15641:15703" ph="/*!40101 SET... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,36 +471,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1511268879817" expanded="true" signature="12341:12405" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12407:12473" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12475:12539" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12541:12570" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12837:13100" ph="CREATE TABLE... autor" />
-              <marker date="1511268879817" expanded="true" signature="13152:13441" ph="INSERT INTO `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="13556:13900" ph="CREATE TABLE... obra" />
-              <marker date="1511268879817" expanded="true" signature="13951:14219" ph="INSERT INTO `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="14337:14670" ph="CREATE TABLE... usuario" />
-              <marker date="1511268879817" expanded="true" signature="14724:14863" ph="INSERT INTO `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="14942:14991" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15030:15117" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15159:15208" ph="ALTER TABLE `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="15303:15392" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15438:15525" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15611:15754" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15765:15827" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15829:15893" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15895:15957" ph="/*!40101 SET... " />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -581,63 +488,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1511179751000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="821:1154" ph="CREATE TABLE... usuario" />
-            <marker date="1511179751000" expanded="true" signature="1235:1284" ph="ALTER TABLE `usuario`... " />
-            <marker date="1511179751000" expanded="true" signature="1551:1905" ph="CREATE TABLE... pma__bookmark" />
-            <marker date="1511179751000" expanded="true" signature="2036:2541" ph="CREATE TABLE... pma__central_columns" />
-            <marker date="1511179751000" expanded="true" signature="2668:3463" ph="CREATE TABLE... pma__column_info" />
-            <marker date="1511179751000" expanded="true" signature="3596:3829" ph="CREATE TABLE... pma__designer_settings" />
-            <marker date="1511179751000" expanded="true" signature="3961:4332" ph="CREATE TABLE... pma__export_templates" />
-            <marker date="1511179751000" expanded="true" signature="4456:4660" ph="CREATE TABLE... pma__favorite" />
-            <marker date="1511179751000" expanded="true" signature="4783:5224" ph="CREATE TABLE... pma__history" />
-            <marker date="1511179751000" expanded="true" signature="5356:5752" ph="CREATE TABLE... pma__navigationhiding" />
-            <marker date="1511179751000" expanded="true" signature="5877:6173" ph="CREATE TABLE... pma__pdf_pages" />
-            <marker date="1511179751000" expanded="true" signature="6295:6506" ph="CREATE TABLE... pma__recent" />
-            <marker date="1511179751000" expanded="true" signature="6564:6679" ph="INSERT INTO `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="6803:7310" ph="CREATE TABLE... pma__relation" />
-            <marker date="1511179751000" expanded="true" signature="7439:7824" ph="CREATE TABLE... pma__savedsearches" />
-            <marker date="1511179751000" expanded="true" signature="7952:8356" ph="CREATE TABLE... pma__table_coords" />
-            <marker date="1511179751000" expanded="true" signature="8482:8805" ph="CREATE TABLE... pma__table_info" />
-            <marker date="1511179751000" expanded="true" signature="8934:9345" ph="CREATE TABLE... pma__table_uiprefs" />
-            <marker date="1511179751000" expanded="true" signature="9469:10279" ph="CREATE TABLE... pma__tracking" />
-            <marker date="1511179751000" expanded="true" signature="10405:10728" ph="CREATE TABLE... pma__userconfig" />
-            <marker date="1511179751000" expanded="true" signature="10790:10965" ph="INSERT INTO `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="11091:11390" ph="CREATE TABLE... pma__usergroups" />
-            <marker date="1511179751000" expanded="true" signature="11511:11749" ph="CREATE TABLE... pma__users" />
-            <marker date="1511179751000" expanded="true" signature="11836:11888" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="11943:12018" ph="ALTER TABLE `pma__central_columns`... " />
-            <marker date="1511179751000" expanded="true" signature="12069:12191" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="12248:12315" ph="ALTER TABLE `pma__designer_settings`... " />
-            <marker date="1511179751000" expanded="true" signature="12371:12515" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="12563:12621" ph="ALTER TABLE `pma__favorite`... " />
-            <marker date="1511179751000" expanded="true" signature="12668:12779" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="12835:12948" ph="ALTER TABLE `pma__navigationhiding`... " />
-            <marker date="1511179751000" expanded="true" signature="12997:13088" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="13134:13190" ph="ALTER TABLE `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="13238:13385" ph="ALTER TABLE `pma__relation`... " />
-            <marker date="1511179751000" expanded="true" signature="13438:13584" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="13636:13728" ph="ALTER TABLE `pma__table_coords`... " />
-            <marker date="1511179751000" expanded="true" signature="13778:13850" ph="ALTER TABLE `pma__table_info`... " />
-            <marker date="1511179751000" expanded="true" signature="13903:13989" ph="ALTER TABLE `pma__table_uiprefs`... " />
-            <marker date="1511179751000" expanded="true" signature="14037:14117" ph="ALTER TABLE `pma__tracking`... " />
-            <marker date="1511179751000" expanded="true" signature="14167:14227" ph="ALTER TABLE `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="14277:14354" ph="ALTER TABLE `pma__usergroups`... " />
-            <marker date="1511179751000" expanded="true" signature="14399:14466" ph="ALTER TABLE `pma__users`... " />
-            <marker date="1511179751000" expanded="true" signature="14569:14642" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="14700:14784" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="14847:14936" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="14990:15074" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="15130:15218" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="15278:15364" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="15511:15573" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15575:15639" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15641:15703" ph="/*!40101 SET... " />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -646,27 +503,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1511268879817" expanded="true" signature="12341:12405" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12407:12473" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12475:12539" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12541:12570" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12837:13100" ph="CREATE TABLE... autor" />
-              <marker date="1511268879817" expanded="true" signature="13152:13441" ph="INSERT INTO `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="13556:13900" ph="CREATE TABLE... obra" />
-              <marker date="1511268879817" expanded="true" signature="13951:14219" ph="INSERT INTO `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="14337:14670" ph="CREATE TABLE... usuario" />
-              <marker date="1511268879817" expanded="true" signature="14724:14863" ph="INSERT INTO `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="14942:14991" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15030:15117" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15159:15208" ph="ALTER TABLE `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="15303:15392" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15438:15525" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15611:15754" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15765:15827" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15829:15893" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15895:15957" ph="/*!40101 SET... " />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -676,63 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1511179751000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="821:1154" ph="CREATE TABLE... usuario" />
-            <marker date="1511179751000" expanded="true" signature="1235:1284" ph="ALTER TABLE `usuario`... " />
-            <marker date="1511179751000" expanded="true" signature="1551:1905" ph="CREATE TABLE... pma__bookmark" />
-            <marker date="1511179751000" expanded="true" signature="2036:2541" ph="CREATE TABLE... pma__central_columns" />
-            <marker date="1511179751000" expanded="true" signature="2668:3463" ph="CREATE TABLE... pma__column_info" />
-            <marker date="1511179751000" expanded="true" signature="3596:3829" ph="CREATE TABLE... pma__designer_settings" />
-            <marker date="1511179751000" expanded="true" signature="3961:4332" ph="CREATE TABLE... pma__export_templates" />
-            <marker date="1511179751000" expanded="true" signature="4456:4660" ph="CREATE TABLE... pma__favorite" />
-            <marker date="1511179751000" expanded="true" signature="4783:5224" ph="CREATE TABLE... pma__history" />
-            <marker date="1511179751000" expanded="true" signature="5356:5752" ph="CREATE TABLE... pma__navigationhiding" />
-            <marker date="1511179751000" expanded="true" signature="5877:6173" ph="CREATE TABLE... pma__pdf_pages" />
-            <marker date="1511179751000" expanded="true" signature="6295:6506" ph="CREATE TABLE... pma__recent" />
-            <marker date="1511179751000" expanded="true" signature="6564:6679" ph="INSERT INTO `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="6803:7310" ph="CREATE TABLE... pma__relation" />
-            <marker date="1511179751000" expanded="true" signature="7439:7824" ph="CREATE TABLE... pma__savedsearches" />
-            <marker date="1511179751000" expanded="true" signature="7952:8356" ph="CREATE TABLE... pma__table_coords" />
-            <marker date="1511179751000" expanded="true" signature="8482:8805" ph="CREATE TABLE... pma__table_info" />
-            <marker date="1511179751000" expanded="true" signature="8934:9345" ph="CREATE TABLE... pma__table_uiprefs" />
-            <marker date="1511179751000" expanded="true" signature="9469:10279" ph="CREATE TABLE... pma__tracking" />
-            <marker date="1511179751000" expanded="true" signature="10405:10728" ph="CREATE TABLE... pma__userconfig" />
-            <marker date="1511179751000" expanded="true" signature="10790:10965" ph="INSERT INTO `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="11091:11390" ph="CREATE TABLE... pma__usergroups" />
-            <marker date="1511179751000" expanded="true" signature="11511:11749" ph="CREATE TABLE... pma__users" />
-            <marker date="1511179751000" expanded="true" signature="11836:11888" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="11943:12018" ph="ALTER TABLE `pma__central_columns`... " />
-            <marker date="1511179751000" expanded="true" signature="12069:12191" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="12248:12315" ph="ALTER TABLE `pma__designer_settings`... " />
-            <marker date="1511179751000" expanded="true" signature="12371:12515" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="12563:12621" ph="ALTER TABLE `pma__favorite`... " />
-            <marker date="1511179751000" expanded="true" signature="12668:12779" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="12835:12948" ph="ALTER TABLE `pma__navigationhiding`... " />
-            <marker date="1511179751000" expanded="true" signature="12997:13088" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="13134:13190" ph="ALTER TABLE `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="13238:13385" ph="ALTER TABLE `pma__relation`... " />
-            <marker date="1511179751000" expanded="true" signature="13438:13584" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="13636:13728" ph="ALTER TABLE `pma__table_coords`... " />
-            <marker date="1511179751000" expanded="true" signature="13778:13850" ph="ALTER TABLE `pma__table_info`... " />
-            <marker date="1511179751000" expanded="true" signature="13903:13989" ph="ALTER TABLE `pma__table_uiprefs`... " />
-            <marker date="1511179751000" expanded="true" signature="14037:14117" ph="ALTER TABLE `pma__tracking`... " />
-            <marker date="1511179751000" expanded="true" signature="14167:14227" ph="ALTER TABLE `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="14277:14354" ph="ALTER TABLE `pma__usergroups`... " />
-            <marker date="1511179751000" expanded="true" signature="14399:14466" ph="ALTER TABLE `pma__users`... " />
-            <marker date="1511179751000" expanded="true" signature="14569:14642" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="14700:14784" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="14847:14936" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="14990:15074" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="15130:15218" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="15278:15364" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="15511:15573" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15575:15639" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15641:15703" ph="/*!40101 SET... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,27 +520,23 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1511268879817" expanded="true" signature="12341:12405" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12407:12473" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12475:12539" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12541:12570" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12837:13100" ph="CREATE TABLE... autor" />
-              <marker date="1511268879817" expanded="true" signature="13152:13441" ph="INSERT INTO `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="13556:13900" ph="CREATE TABLE... obra" />
-              <marker date="1511268879817" expanded="true" signature="13951:14219" ph="INSERT INTO `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="14337:14670" ph="CREATE TABLE... usuario" />
-              <marker date="1511268879817" expanded="true" signature="14724:14863" ph="INSERT INTO `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="14942:14991" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15030:15117" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15159:15208" ph="ALTER TABLE `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="15303:15392" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15438:15525" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15611:15754" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15765:15827" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15829:15893" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15895:15957" ph="/*!40101 SET... " />
-            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -771,63 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1511179751000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="821:1154" ph="CREATE TABLE... usuario" />
-            <marker date="1511179751000" expanded="true" signature="1235:1284" ph="ALTER TABLE `usuario`... " />
-            <marker date="1511179751000" expanded="true" signature="1551:1905" ph="CREATE TABLE... pma__bookmark" />
-            <marker date="1511179751000" expanded="true" signature="2036:2541" ph="CREATE TABLE... pma__central_columns" />
-            <marker date="1511179751000" expanded="true" signature="2668:3463" ph="CREATE TABLE... pma__column_info" />
-            <marker date="1511179751000" expanded="true" signature="3596:3829" ph="CREATE TABLE... pma__designer_settings" />
-            <marker date="1511179751000" expanded="true" signature="3961:4332" ph="CREATE TABLE... pma__export_templates" />
-            <marker date="1511179751000" expanded="true" signature="4456:4660" ph="CREATE TABLE... pma__favorite" />
-            <marker date="1511179751000" expanded="true" signature="4783:5224" ph="CREATE TABLE... pma__history" />
-            <marker date="1511179751000" expanded="true" signature="5356:5752" ph="CREATE TABLE... pma__navigationhiding" />
-            <marker date="1511179751000" expanded="true" signature="5877:6173" ph="CREATE TABLE... pma__pdf_pages" />
-            <marker date="1511179751000" expanded="true" signature="6295:6506" ph="CREATE TABLE... pma__recent" />
-            <marker date="1511179751000" expanded="true" signature="6564:6679" ph="INSERT INTO `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="6803:7310" ph="CREATE TABLE... pma__relation" />
-            <marker date="1511179751000" expanded="true" signature="7439:7824" ph="CREATE TABLE... pma__savedsearches" />
-            <marker date="1511179751000" expanded="true" signature="7952:8356" ph="CREATE TABLE... pma__table_coords" />
-            <marker date="1511179751000" expanded="true" signature="8482:8805" ph="CREATE TABLE... pma__table_info" />
-            <marker date="1511179751000" expanded="true" signature="8934:9345" ph="CREATE TABLE... pma__table_uiprefs" />
-            <marker date="1511179751000" expanded="true" signature="9469:10279" ph="CREATE TABLE... pma__tracking" />
-            <marker date="1511179751000" expanded="true" signature="10405:10728" ph="CREATE TABLE... pma__userconfig" />
-            <marker date="1511179751000" expanded="true" signature="10790:10965" ph="INSERT INTO `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="11091:11390" ph="CREATE TABLE... pma__usergroups" />
-            <marker date="1511179751000" expanded="true" signature="11511:11749" ph="CREATE TABLE... pma__users" />
-            <marker date="1511179751000" expanded="true" signature="11836:11888" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="11943:12018" ph="ALTER TABLE `pma__central_columns`... " />
-            <marker date="1511179751000" expanded="true" signature="12069:12191" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="12248:12315" ph="ALTER TABLE `pma__designer_settings`... " />
-            <marker date="1511179751000" expanded="true" signature="12371:12515" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="12563:12621" ph="ALTER TABLE `pma__favorite`... " />
-            <marker date="1511179751000" expanded="true" signature="12668:12779" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="12835:12948" ph="ALTER TABLE `pma__navigationhiding`... " />
-            <marker date="1511179751000" expanded="true" signature="12997:13088" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="13134:13190" ph="ALTER TABLE `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="13238:13385" ph="ALTER TABLE `pma__relation`... " />
-            <marker date="1511179751000" expanded="true" signature="13438:13584" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="13636:13728" ph="ALTER TABLE `pma__table_coords`... " />
-            <marker date="1511179751000" expanded="true" signature="13778:13850" ph="ALTER TABLE `pma__table_info`... " />
-            <marker date="1511179751000" expanded="true" signature="13903:13989" ph="ALTER TABLE `pma__table_uiprefs`... " />
-            <marker date="1511179751000" expanded="true" signature="14037:14117" ph="ALTER TABLE `pma__tracking`... " />
-            <marker date="1511179751000" expanded="true" signature="14167:14227" ph="ALTER TABLE `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="14277:14354" ph="ALTER TABLE `pma__usergroups`... " />
-            <marker date="1511179751000" expanded="true" signature="14399:14466" ph="ALTER TABLE `pma__users`... " />
-            <marker date="1511179751000" expanded="true" signature="14569:14642" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="14700:14784" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="14847:14936" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="14990:15074" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="15130:15218" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="15278:15364" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="15511:15573" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15575:15639" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15641:15703" ph="/*!40101 SET... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,27 +554,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1511268879817" expanded="true" signature="12341:12405" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12407:12473" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12475:12539" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12541:12570" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12837:13100" ph="CREATE TABLE... autor" />
-              <marker date="1511268879817" expanded="true" signature="13152:13441" ph="INSERT INTO `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="13556:13900" ph="CREATE TABLE... obra" />
-              <marker date="1511268879817" expanded="true" signature="13951:14219" ph="INSERT INTO `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="14337:14670" ph="CREATE TABLE... usuario" />
-              <marker date="1511268879817" expanded="true" signature="14724:14863" ph="INSERT INTO `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="14942:14991" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15030:15117" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15159:15208" ph="ALTER TABLE `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="15303:15392" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15438:15525" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15611:15754" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15765:15827" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15829:15893" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15895:15957" ph="/*!40101 SET... " />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -866,63 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1511179751000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="821:1154" ph="CREATE TABLE... usuario" />
-            <marker date="1511179751000" expanded="true" signature="1235:1284" ph="ALTER TABLE `usuario`... " />
-            <marker date="1511179751000" expanded="true" signature="1551:1905" ph="CREATE TABLE... pma__bookmark" />
-            <marker date="1511179751000" expanded="true" signature="2036:2541" ph="CREATE TABLE... pma__central_columns" />
-            <marker date="1511179751000" expanded="true" signature="2668:3463" ph="CREATE TABLE... pma__column_info" />
-            <marker date="1511179751000" expanded="true" signature="3596:3829" ph="CREATE TABLE... pma__designer_settings" />
-            <marker date="1511179751000" expanded="true" signature="3961:4332" ph="CREATE TABLE... pma__export_templates" />
-            <marker date="1511179751000" expanded="true" signature="4456:4660" ph="CREATE TABLE... pma__favorite" />
-            <marker date="1511179751000" expanded="true" signature="4783:5224" ph="CREATE TABLE... pma__history" />
-            <marker date="1511179751000" expanded="true" signature="5356:5752" ph="CREATE TABLE... pma__navigationhiding" />
-            <marker date="1511179751000" expanded="true" signature="5877:6173" ph="CREATE TABLE... pma__pdf_pages" />
-            <marker date="1511179751000" expanded="true" signature="6295:6506" ph="CREATE TABLE... pma__recent" />
-            <marker date="1511179751000" expanded="true" signature="6564:6679" ph="INSERT INTO `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="6803:7310" ph="CREATE TABLE... pma__relation" />
-            <marker date="1511179751000" expanded="true" signature="7439:7824" ph="CREATE TABLE... pma__savedsearches" />
-            <marker date="1511179751000" expanded="true" signature="7952:8356" ph="CREATE TABLE... pma__table_coords" />
-            <marker date="1511179751000" expanded="true" signature="8482:8805" ph="CREATE TABLE... pma__table_info" />
-            <marker date="1511179751000" expanded="true" signature="8934:9345" ph="CREATE TABLE... pma__table_uiprefs" />
-            <marker date="1511179751000" expanded="true" signature="9469:10279" ph="CREATE TABLE... pma__tracking" />
-            <marker date="1511179751000" expanded="true" signature="10405:10728" ph="CREATE TABLE... pma__userconfig" />
-            <marker date="1511179751000" expanded="true" signature="10790:10965" ph="INSERT INTO `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="11091:11390" ph="CREATE TABLE... pma__usergroups" />
-            <marker date="1511179751000" expanded="true" signature="11511:11749" ph="CREATE TABLE... pma__users" />
-            <marker date="1511179751000" expanded="true" signature="11836:11888" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="11943:12018" ph="ALTER TABLE `pma__central_columns`... " />
-            <marker date="1511179751000" expanded="true" signature="12069:12191" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="12248:12315" ph="ALTER TABLE `pma__designer_settings`... " />
-            <marker date="1511179751000" expanded="true" signature="12371:12515" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="12563:12621" ph="ALTER TABLE `pma__favorite`... " />
-            <marker date="1511179751000" expanded="true" signature="12668:12779" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="12835:12948" ph="ALTER TABLE `pma__navigationhiding`... " />
-            <marker date="1511179751000" expanded="true" signature="12997:13088" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="13134:13190" ph="ALTER TABLE `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="13238:13385" ph="ALTER TABLE `pma__relation`... " />
-            <marker date="1511179751000" expanded="true" signature="13438:13584" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="13636:13728" ph="ALTER TABLE `pma__table_coords`... " />
-            <marker date="1511179751000" expanded="true" signature="13778:13850" ph="ALTER TABLE `pma__table_info`... " />
-            <marker date="1511179751000" expanded="true" signature="13903:13989" ph="ALTER TABLE `pma__table_uiprefs`... " />
-            <marker date="1511179751000" expanded="true" signature="14037:14117" ph="ALTER TABLE `pma__tracking`... " />
-            <marker date="1511179751000" expanded="true" signature="14167:14227" ph="ALTER TABLE `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="14277:14354" ph="ALTER TABLE `pma__usergroups`... " />
-            <marker date="1511179751000" expanded="true" signature="14399:14466" ph="ALTER TABLE `pma__users`... " />
-            <marker date="1511179751000" expanded="true" signature="14569:14642" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="14700:14784" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="14847:14936" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="14990:15074" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="15130:15218" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="15278:15364" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="15511:15573" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15575:15639" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15641:15703" ph="/*!40101 SET... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,114 +616,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/html/U3P01-Gestión de BBDD con MariaDB.md.html" />
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/catalogo12(1).sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="72">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1511179751000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="821:1154" ph="CREATE TABLE... usuario" />
-            <marker date="1511179751000" expanded="true" signature="1235:1284" ph="ALTER TABLE `usuario`... " />
-            <marker date="1511179751000" expanded="true" signature="1551:1905" ph="CREATE TABLE... pma__bookmark" />
-            <marker date="1511179751000" expanded="true" signature="2036:2541" ph="CREATE TABLE... pma__central_columns" />
-            <marker date="1511179751000" expanded="true" signature="2668:3463" ph="CREATE TABLE... pma__column_info" />
-            <marker date="1511179751000" expanded="true" signature="3596:3829" ph="CREATE TABLE... pma__designer_settings" />
-            <marker date="1511179751000" expanded="true" signature="3961:4332" ph="CREATE TABLE... pma__export_templates" />
-            <marker date="1511179751000" expanded="true" signature="4456:4660" ph="CREATE TABLE... pma__favorite" />
-            <marker date="1511179751000" expanded="true" signature="4783:5224" ph="CREATE TABLE... pma__history" />
-            <marker date="1511179751000" expanded="true" signature="5356:5752" ph="CREATE TABLE... pma__navigationhiding" />
-            <marker date="1511179751000" expanded="true" signature="5877:6173" ph="CREATE TABLE... pma__pdf_pages" />
-            <marker date="1511179751000" expanded="true" signature="6295:6506" ph="CREATE TABLE... pma__recent" />
-            <marker date="1511179751000" expanded="true" signature="6564:6679" ph="INSERT INTO `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="6803:7310" ph="CREATE TABLE... pma__relation" />
-            <marker date="1511179751000" expanded="true" signature="7439:7824" ph="CREATE TABLE... pma__savedsearches" />
-            <marker date="1511179751000" expanded="true" signature="7952:8356" ph="CREATE TABLE... pma__table_coords" />
-            <marker date="1511179751000" expanded="true" signature="8482:8805" ph="CREATE TABLE... pma__table_info" />
-            <marker date="1511179751000" expanded="true" signature="8934:9345" ph="CREATE TABLE... pma__table_uiprefs" />
-            <marker date="1511179751000" expanded="true" signature="9469:10279" ph="CREATE TABLE... pma__tracking" />
-            <marker date="1511179751000" expanded="true" signature="10405:10728" ph="CREATE TABLE... pma__userconfig" />
-            <marker date="1511179751000" expanded="true" signature="10790:10965" ph="INSERT INTO `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="11091:11390" ph="CREATE TABLE... pma__usergroups" />
-            <marker date="1511179751000" expanded="true" signature="11511:11749" ph="CREATE TABLE... pma__users" />
-            <marker date="1511179751000" expanded="true" signature="11836:11888" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="11943:12018" ph="ALTER TABLE `pma__central_columns`... " />
-            <marker date="1511179751000" expanded="true" signature="12069:12191" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="12248:12315" ph="ALTER TABLE `pma__designer_settings`... " />
-            <marker date="1511179751000" expanded="true" signature="12371:12515" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="12563:12621" ph="ALTER TABLE `pma__favorite`... " />
-            <marker date="1511179751000" expanded="true" signature="12668:12779" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="12835:12948" ph="ALTER TABLE `pma__navigationhiding`... " />
-            <marker date="1511179751000" expanded="true" signature="12997:13088" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="13134:13190" ph="ALTER TABLE `pma__recent`... " />
-            <marker date="1511179751000" expanded="true" signature="13238:13385" ph="ALTER TABLE `pma__relation`... " />
-            <marker date="1511179751000" expanded="true" signature="13438:13584" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="13636:13728" ph="ALTER TABLE `pma__table_coords`... " />
-            <marker date="1511179751000" expanded="true" signature="13778:13850" ph="ALTER TABLE `pma__table_info`... " />
-            <marker date="1511179751000" expanded="true" signature="13903:13989" ph="ALTER TABLE `pma__table_uiprefs`... " />
-            <marker date="1511179751000" expanded="true" signature="14037:14117" ph="ALTER TABLE `pma__tracking`... " />
-            <marker date="1511179751000" expanded="true" signature="14167:14227" ph="ALTER TABLE `pma__userconfig`... " />
-            <marker date="1511179751000" expanded="true" signature="14277:14354" ph="ALTER TABLE `pma__usergroups`... " />
-            <marker date="1511179751000" expanded="true" signature="14399:14466" ph="ALTER TABLE `pma__users`... " />
-            <marker date="1511179751000" expanded="true" signature="14569:14642" ph="ALTER TABLE `pma__bookmark`... " />
-            <marker date="1511179751000" expanded="true" signature="14700:14784" ph="ALTER TABLE `pma__column_info`... " />
-            <marker date="1511179751000" expanded="true" signature="14847:14936" ph="ALTER TABLE `pma__export_templates`... " />
-            <marker date="1511179751000" expanded="true" signature="14990:15074" ph="ALTER TABLE `pma__history`... " />
-            <marker date="1511179751000" expanded="true" signature="15130:15218" ph="ALTER TABLE `pma__pdf_pages`... " />
-            <marker date="1511179751000" expanded="true" signature="15278:15364" ph="ALTER TABLE `pma__savedsearches`... " />
-            <marker date="1511179751000" expanded="true" signature="15511:15573" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15575:15639" ph="/*!40101 SET... " />
-            <marker date="1511179751000" expanded="true" signature="15641:15703" ph="/*!40101 SET... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/html/U3P01-Gestión de BBDD con MariaDB.md.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-            <folding>
-              <marker date="1511268879817" expanded="true" signature="12341:12405" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12407:12473" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12475:12539" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12541:12570" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="12837:13100" ph="CREATE TABLE... autor" />
-              <marker date="1511268879817" expanded="true" signature="13152:13441" ph="INSERT INTO `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="13556:13900" ph="CREATE TABLE... obra" />
-              <marker date="1511268879817" expanded="true" signature="13951:14219" ph="INSERT INTO `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="14337:14670" ph="CREATE TABLE... usuario" />
-              <marker date="1511268879817" expanded="true" signature="14724:14863" ph="INSERT INTO `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="14942:14991" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15030:15117" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15159:15208" ph="ALTER TABLE `usuario`... " />
-              <marker date="1511268879817" expanded="true" signature="15303:15392" ph="ALTER TABLE `autor`... " />
-              <marker date="1511268879817" expanded="true" signature="15438:15525" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15611:15754" ph="ALTER TABLE `obra`... " />
-              <marker date="1511268879817" expanded="true" signature="15765:15827" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15829:15893" ph="/*!40101 SET... " />
-              <marker date="1511268879817" expanded="true" signature="15895:15957" ph="/*!40101 SET... " />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1091,15 +628,121 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/catalogo12(1).sql">
+    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/doc/UT3-1-PHP.md.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <marker date="1511349993865" expanded="true" signature="357:455" ph="SELECT * FRO... animal" />
+            <marker date="1511349993865" expanded="true" signature="493:529" ph="SELECT * FRO... animal" />
+            <marker date="1511349993865" expanded="true" signature="956:994" ph="SELECT * FRO... cuidador" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <marker date="1511350523802" expanded="true" signature="262:296" ph="SELECT * FRO... animal" />
+            <marker date="1511350523802" expanded="true" signature="456:483" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/doc/U3P02-Acceso a BBDD en PHP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1511308832000" expanded="true" signature="1048:1114" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="1178:1405" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="1766:2143" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="1892:2009" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="2017:2141" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="2728:3568" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="2953:3070" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="3339:3507" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="5552:5994" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="5761:5992" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="6327:6742" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="6529:6738" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="7471:7607" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="7895:7995" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="8288:9397" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="9245:9395" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="9301:9378" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="10289:10791" ph="..." />
+              <marker date="1511308832000" expanded="true" signature="10609:10775" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <marker date="1511350611270" expanded="true" signature="248:302" ph="UPDATE anima... " />
+            <marker date="1511350611270" expanded="true" signature="327:336" ph="..." />
+            <marker date="1511350611270" expanded="true" signature="405:439" ph="SELECT * FRO... animal" />
+            <marker date="1511350611270" expanded="true" signature="599:626" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
