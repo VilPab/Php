@@ -22,5 +22,8 @@
     }
     ?>
 </table>
+<?php
+include("enlaces.php");
+?>
 </body>
 </html>

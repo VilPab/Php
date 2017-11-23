@@ -17,6 +17,7 @@ while($fila=$resultado->fetch_assoc()) {
     // Ejemplo: <li><a href='cuidador.php?idCuidador=12345'>Alberto</a></li>
 }
 echo "</ul>";
+include("enlaces.php");
 ?>
 
 </body>

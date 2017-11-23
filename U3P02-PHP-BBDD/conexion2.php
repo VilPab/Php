@@ -36,6 +36,9 @@ while($fila!=null) {
 echo "<h3>Desconectando...</h3>";
 
 mysqli_close($conexion);
+
+include("enlaces.php");
+
 ?>
 </body>
 </html>

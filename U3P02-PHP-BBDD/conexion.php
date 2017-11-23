@@ -33,5 +33,8 @@ $clave = "alumno";
     }
     ?>
 </ul>
+<?php
+include("enlaces.php");
+?>
 </body>
 </html>

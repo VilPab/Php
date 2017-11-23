@@ -10,13 +10,22 @@ class Animal
 {
     private $chip;
     private $nombre;
-    private $especie;
+    private $tipo;
     private $imagen;
+
+
+    /*public function __construct($chip, $nombre, $especie, $imagen)
+    {
+        $this->chip = $chip;
+        $this->nombre = $nombre;
+        $this->especie = $especie;
+        $this->imagen = $imagen;
+    }*/
 
 
     public function __toString()
     {
-        $cadena = "<p>Nombre:" . $this->getNombre() . "</p><p>Especie:" . $this->getEspecie() . "</p><br><img src='img/" . $this->getImagen() . "'>";
+        $cadena = "<p>Nombre:" . $this->getNombre() . "</p><p>Especie:" . $this->getTipo() . "</p><br><img src='img/" . $this->getImagen() . "'>";
         return $cadena;
     }
 
@@ -44,14 +53,14 @@ class Animal
     }
 
 
-    public function getEspecie()
+    public function getTipo()
     {
-        return $this->especie;
+        return $this->tipo;
     }
 
-    public function setEspecie($especie)
+    public function setTipo($tipo)
     {
-        $this->especie = $especie;
+        $this->tipo = $tipo;
     }
 
 
