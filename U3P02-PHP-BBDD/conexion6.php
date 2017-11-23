@@ -3,6 +3,9 @@ include("conect.php");
 include("Animal.php");
 ?>
 <html>
+<head>
+    <link href="estilos/style.css" rel="stylesheet">
+</head>
 <body>
 <table>
     <?php
@@ -19,7 +22,7 @@ include("Animal.php");
         echo "<td>" . $animal->getChip() . "</td>\n";
         echo "<td>" . $animal->getNombre() . "</td>\n";
         echo "<td>" . $animal->getTipo() . "</td>\n";
-        echo "<td><img src='img/" . $animal->getImagen() . "'></td>\n";
+        echo "<td><img class='imagen' src='img/" . $animal->getImagen() . "'></td>\n";
         echo "</tr>";
         print_r($animal);
     }

@@ -3,5 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/catalogo12(1).sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/U3P02-PHP-BBDD/sql/animales.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/sql/catalogo12.sql" dialect="MySQL" />
   </component>
 </project>

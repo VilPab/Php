@@ -1,4 +1,7 @@
 <html>
+<head>
+    <link href="estilos/style.css" rel="stylesheet">
+</head>
 <body>
 <table style='border:0'>
     <tr style='background-color:lightblue'>
@@ -16,7 +19,7 @@
         echo "<td>$fila[chip]</td>";
         echo "<td>$fila[nombre]</td>";
         echo "<td>$fila[especie]</td>\n";
-        echo "<td><img src='img/$fila[imagen]'</td>\n";
+        echo "<td><img class='imagen' src='img/$fila[imagen]'</td>\n";
         echo "</tr>";
 
     }

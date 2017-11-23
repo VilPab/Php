@@ -25,8 +25,8 @@ class Animal
 
     public function __toString()
     {
-        $cadena = "<p>Nombre:" . $this->getNombre() . "</p><p>Especie:" . $this->getTipo() . "</p><br><img src='img/" . $this->getImagen() . "'>";
-        return $cadena;
+        return "<p>Nombre:" . $this->getNombre() . "</p><p>Especie:" . $this->getTipo() . "</p><br><img src='img/" . $this->getImagen() . "'>";
+
     }
 
     public function getNombre()
