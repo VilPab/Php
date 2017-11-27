@@ -2,16 +2,15 @@
 /**
  * Created by PhpStorm.
  * User: alumno
- * Date: 23/11/17
- * Time: 13:55
+ * Date: 27/11/17
+ * Time: 10:45
  */
 
-class Obra
+class Pintura
 {
-    private $idObra;
+    private $idPintura;
     private $titulo;
     private $ano;
-    private $duracion;
     private $imagen;
     private $idAutor;
     private $nombre;
@@ -22,9 +21,9 @@ class Obra
         return $this->nombre;
     }
 
-    public function getIdObra()
+    public function getIdPintura()
     {
-        return $this->idObra;
+        return $this->idPintura;
     }
 
 
@@ -39,11 +38,6 @@ class Obra
         return $this->ano;
     }
 
-
-    public function getDuracion()
-    {
-        return $this->duracion;
-    }
 
     public function getImagen()
     {
