@@ -14,7 +14,13 @@ class Pintura
     private $imagen;
     private $idAutor;
     private $nombre;
+    private $imagenA;
 
+
+    public function getImagenA()
+    {
+        return $this->imagenA;
+    }
 
     public function getNombre()
     {

@@ -5,11 +5,12 @@ include "connection.php";
 ?>
 <html>
 <head>
-
+    <link href="./estilos/style.css" rel="stylesheet">
 </head>
 <body>
+<p>&#9650 &#9660</p>
 <table>
-    <tr style='background-color:lightblue'>
+    </p><tr style='background-color:lightblue'>
         <th>Id Obra</th>
         <th>Titulo</th>
         <th>Año</th>
@@ -29,7 +30,8 @@ include "connection.php";
         echo "<td>" . $obra->getAno() . "</td>\n";
         echo "<td>" . $obra->getNombre() . "</td>\n";
         if(!empty($obra->getDuracion())) echo "<td>" . $obra->getDuracion() . "</td>\n";else echo "<td> Sin datos </td>\n";
-        echo "<td><img class='imagen' src='img/" . $obra->getImagen() . "'></td>\n";
+        echo "<td><a href='mostrarObra.php?idObra=".$obra->getIdObra()."'><img class='imagen' src='img/" . $obra->getImagen() . "'></a></td>\n";
+
         echo "</tr>";
 
     }
@@ -53,9 +55,7 @@ include "connection.php";
         echo "<td>" . $pintura->getTitulo() . "</td>\n";
         echo "<td>" . $pintura->getAno() . "</td>\n";
         echo "<td>" . $pintura->getNombre() . "</td>\n";
-        echo "<td><img class='imagen' src='img/" . $pintura->getImagen() . "'></td>\n";
-
-
+        echo "<td><a href='mostrarObra.php?idPintura=".$pintura->getIdPintura()."'><img class='imagen' src='img/" . $pintura->getImagen() . "'></a></td>\n";
         echo "</tr>";
     }
     ?>

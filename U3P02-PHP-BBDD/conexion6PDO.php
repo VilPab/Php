@@ -10,7 +10,7 @@ include("Animal.php");
 ?>
 <html>
 <head>
-    <link href="estilos/style.css" rel="stylesheet">
+    <link href="../U3P03-PHP-Catalogo/estilos/style.css" rel="stylesheet">
 </head>
 <body>
 <table>
