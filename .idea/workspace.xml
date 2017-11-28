@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7be52ea-ea93-4663-92ce-313e8f658866" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P03-PHP-Catalogo/estilos/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion3.php" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6.php" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6PDO.php" afterPath="$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6PDO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P03-PHP-Catalogo/Obra.php" afterPath="$PROJECT_DIR$/U3P03-PHP-Catalogo/Obra.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P03-PHP-Catalogo/Pintura.php" afterPath="$PROJECT_DIR$/U3P03-PHP-Catalogo/Pintura.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php" afterPath="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarObra.php" afterPath="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarObra.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mostrarObra.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mostrarObra.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarObra.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding>
                 <marker date="1511872766305" expanded="true" signature="309:395" ph="SELECT * FRO... pintura" />
                 <marker date="1511872766305" expanded="true" signature="309:399" ph="SELECT * FRO... pintura" />
@@ -136,15 +128,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mostrarCatalogo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mostrarCatalogo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="288">
+              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding>
-                <marker date="1511873931243" expanded="true" signature="440:467" ph="SELECT * FRO... musica" />
-                <marker date="1511873931243" expanded="true" signature="440:501" ph="SELECT * FRO... musica" />
-                <marker date="1511873931243" expanded="true" signature="1496:1559" ph="SELECT * fro... pintura" />
+                <marker date="1511875214263" expanded="true" signature="559:586" ph="SELECT * FRO... musica" />
+                <marker date="1511875214263" expanded="true" signature="559:620" ph="SELECT * FRO... musica" />
+                <marker date="1511875214263" expanded="true" signature="559:648" ph="SELECT * FRO... musica" />
+                <marker date="1511875214263" expanded="true" signature="702:763" ph="SELECT * FRO... musica" />
+                <marker date="1511875214263" expanded="true" signature="1764:1827" ph="SELECT * fro... pintura" />
               </folding>
             </state>
           </provider>
@@ -328,7 +322,7 @@
       <workItem from="1511518271287" duration="651000" />
       <workItem from="1511775069206" duration="4628000" />
       <workItem from="1511869306285" duration="1275000" />
-      <workItem from="1511870697990" duration="3531000" />
+      <workItem from="1511870697990" duration="4538000" />
     </task>
     <task id="LOCAL-00001" summary="CLase">
       <created>1511179843641</created>
@@ -365,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511781078864</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CLase">
+      <created>1511874238551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511874238551</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35279000" />
+    <option name="totallyTimeSpent" value="36286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1297" height="780" extended-state="6" />
@@ -708,6 +709,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,18 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <marker date="1511873931243" expanded="true" signature="440:467" ph="SELECT * FRO... musica" />
-            <marker date="1511873931243" expanded="true" signature="440:501" ph="SELECT * FRO... musica" />
-            <marker date="1511873931243" expanded="true" signature="1496:1559" ph="SELECT * fro... pintura" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/doc/U3P03-Acceso al catálogo con PHP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -827,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarObra.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <marker date="1511872766305" expanded="true" signature="309:395" ph="SELECT * FRO... pintura" />
             <marker date="1511872766305" expanded="true" signature="309:399" ph="SELECT * FRO... pintura" />
@@ -836,6 +826,20 @@
             <marker date="1511872766305" expanded="true" signature="561:622" ph="SELECT * FRO... musica" />
             <marker date="1511872766305" expanded="true" signature="561:641" ph="SELECT * FRO... musica" />
             <marker date="1511872766305" expanded="true" signature="561:642" ph="SELECT * FRO... musica" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <marker date="1511875214263" expanded="true" signature="559:586" ph="SELECT * FRO... musica" />
+            <marker date="1511875214263" expanded="true" signature="559:620" ph="SELECT * FRO... musica" />
+            <marker date="1511875214263" expanded="true" signature="559:648" ph="SELECT * FRO... musica" />
+            <marker date="1511875214263" expanded="true" signature="702:763" ph="SELECT * FRO... musica" />
+            <marker date="1511875214263" expanded="true" signature="1764:1827" ph="SELECT * fro... pintura" />
           </folding>
         </state>
       </provider>

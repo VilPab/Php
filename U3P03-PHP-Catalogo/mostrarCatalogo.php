@@ -8,19 +8,26 @@ include "connection.php";
     <link href="./estilos/style.css" rel="stylesheet">
 </head>
 <body>
-<p>&#9650 &#9660</p>
+<?php
+$ordenA=1;
+$orderD=0;
+?>
 <table>
     </p><tr style='background-color:lightblue'>
-        <th>Id Obra</th>
-        <th>Titulo</th>
+        <th>Id Obra <a href="mostrarCatalogo.php?order=<?php echo $ordenA?>"> &#9650</a></th>
+        <th>Titulo </th>
         <th>Año</th>
         <th>Id Autor</th>
         <th>Duración</th>
         <th>Imagen</th>
     </tr>
     <?php
-    $resultado = $conexion->query("SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor");
+    if(isset($_REQUEST[$ordenA])){
+        $resultado = $conexion->query("SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor ORDER BY musica.idObra DESC");
+    }else{
+        $resultado = $conexion->query("SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor");
 
+    }
     if ($resultado->num_rows === 0) echo "<p>No hay animales en la base de datos</p>";
 
     while ($obra = $resultado->fetch_object('Obra')) {
