@@ -131,15 +131,15 @@
       <file leaf-file-name="mostrarCatalogo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="33" column="128" lean-forward="false" selection-start-line="33" selection-start-column="128" selection-end-line="33" selection-end-column="128" />
               <folding>
                 <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1511948026680" expanded="true" signature="792:907" ph="SELECT * FRO... musica" />
-                <marker date="1511948026680" expanded="true" signature="939:1054" ph="SELECT * FRO... musica" />
-                <marker date="1511948026680" expanded="true" signature="1139:1224" ph="SELECT * FRO... musica" />
-                <marker date="1511948026680" expanded="false" signature="2167:2193" ph="..." />
-                <marker date="1511948026680" expanded="true" signature="2418:2481" ph="SELECT * fro... pintura" />
+                <marker date="1511948167932" expanded="true" signature="792:905" ph="SELECT * FRO... musica" />
+                <marker date="1511948167932" expanded="true" signature="937:1050" ph="SELECT * FRO... musica" />
+                <marker date="1511948167932" expanded="true" signature="1135:1220" ph="SELECT * FRO... musica" />
+                <marker date="1511948167932" expanded="false" signature="2163:2189" ph="..." />
+                <marker date="1511948167932" expanded="true" signature="2414:2477" ph="SELECT * fro... pintura" />
               </folding>
             </state>
           </provider>
@@ -330,7 +330,7 @@
       <workItem from="1511775069206" duration="4628000" />
       <workItem from="1511869306285" duration="1275000" />
       <workItem from="1511870697990" duration="4556000" />
-      <workItem from="1511944623442" duration="1986000" />
+      <workItem from="1511944623442" duration="2119000" />
     </task>
     <task id="LOCAL-00001" summary="CLase">
       <created>1511179843641</created>
@@ -388,18 +388,24 @@
       <option name="project" value="LOCAL" />
       <updated>1511944639377</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CLase">
+      <created>1511948063798</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1511948063798</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38290000" />
+    <option name="totallyTimeSpent" value="38423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1295" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3002402" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3002402" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -853,15 +859,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="33" column="128" lean-forward="false" selection-start-line="33" selection-start-column="128" selection-end-line="33" selection-end-column="128" />
           <folding>
             <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1511948026680" expanded="true" signature="792:907" ph="SELECT * FRO... musica" />
-            <marker date="1511948026680" expanded="true" signature="939:1054" ph="SELECT * FRO... musica" />
-            <marker date="1511948026680" expanded="true" signature="1139:1224" ph="SELECT * FRO... musica" />
-            <marker date="1511948026680" expanded="false" signature="2167:2193" ph="..." />
-            <marker date="1511948026680" expanded="true" signature="2418:2481" ph="SELECT * fro... pintura" />
+            <marker date="1511948167932" expanded="true" signature="792:905" ph="SELECT * FRO... musica" />
+            <marker date="1511948167932" expanded="true" signature="937:1050" ph="SELECT * FRO... musica" />
+            <marker date="1511948167932" expanded="true" signature="1135:1220" ph="SELECT * FRO... musica" />
+            <marker date="1511948167932" expanded="false" signature="2163:2189" ph="..." />
+            <marker date="1511948167932" expanded="true" signature="2414:2477" ph="SELECT * fro... pintura" />
           </folding>
         </state>
       </provider>
