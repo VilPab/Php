@@ -32,7 +32,8 @@ include "connection.php";
     if(isset($_GET["autor"])){
         $autor=$_GET["autor"];
         $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order);
-
+        $consulta ='SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order;
+        echo $consulta;
     }else{
         $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor ORDER BY musica.idObra '. $order);
 
