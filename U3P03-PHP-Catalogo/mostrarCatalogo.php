@@ -2,7 +2,16 @@
 include "Obra.php";
 include "Pintura.php";
 include "connection.php";
+session_start();
+if (isset($_SESSION['autor'])){
+    $autor=$_SESSION["autor"];}
+    else $autor='';
+if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
+    $autor='';
+    session_destroy();
+}
 ?>
+
 <html>
 <head>
     <link href="./estilos/style.css" rel="stylesheet">
@@ -10,8 +19,8 @@ include "connection.php";
 <body>
 <table>
     <tr style='background-color:lightblue'>
-        <th>Id Obra <a href="mostrarCatalogo.php?order=1"> &#9650</a>
-            <a href="mostrarCatalogo.php?order=0"> &#9660</a></th>
+        <th>Id Obra <a href="mostrarCatalogo.php?order=1&<?php if($autor!='') echo 'autor='.$autor; ?>"> &#9650</a>
+            <a href="mostrarCatalogo.php?order=0&<?php if($autor!='')echo 'autor='.$autor ;?>"> &#9660</a></th>
         <th>Titulo </th>
         <th>Año</th>
         <th>Id Autor</th>
@@ -21,7 +30,7 @@ include "connection.php";
     <?php
     $order='';
     $numero='';
-    if(isset($_GET["order"]) && $_GET["order"]==1){
+    if(isset($_REQUEST["order"]) && $_REQUEST["order"]==1){
         $order='ASC';
         $numero=1;
     }else{
@@ -29,11 +38,13 @@ include "connection.php";
         $numero=0;
     }
     $autor='';
-    if(isset($_GET["autor"])){
-        $autor=$_GET["autor"];
+    if(isset($_REQUEST["autor"])){
+        $autor=$_REQUEST["autor"];
+    if (isset($_SESSION['autor'])){
+            $autor=$_SESSION["autor"];}
+
         $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order);
-        $consulta ='SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order;
-        echo $consulta;
+
     }else{
         $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor ORDER BY musica.idObra '. $order);
 
@@ -44,7 +55,7 @@ include "connection.php";
 
 
 
-    if ($resultado->num_rows === 0) echo "<p>No hay animales en la base de datos</p>";
+    if ($resultado->num_rows === 0) echo "<p>No hay obras</p>";
 
     while ($obra = $resultado->fetch_object('Obra')) {
         echo "<tr bgcolor='lightgreen'>";
@@ -52,12 +63,14 @@ include "connection.php";
         echo "<td>" . $obra->getTitulo() . "</td>\n";
         echo "<td>" . $obra->getAno() . "</td>\n";
         echo "<td><a href='mostrarCatalogo.php?order=".$numero."&autor=".$obra->getNombre()."'>" . $obra->getNombre() . "</td>\n";
+        $_SESSION['autor']=$obra->getNombre();
         if(!empty($obra->getDuracion())) echo "<td>" . $obra->getDuracion() . "</td>\n";else echo "<td> Sin datos </td>\n";
         echo "<td><a href='mostrarObra.php?idObra=".$obra->getIdObra()."'><img class='imagen' src='img/" . $obra->getImagen() . "'></a></td>\n";
-
         echo "</tr>";
 
     }
+    echo "<a href='mostrarCatalogo.php?sesion=0'>Quitar filtros</a>\n";
+
     ?></table>
     <table>
     <tr style='background-color:lightblue'>
