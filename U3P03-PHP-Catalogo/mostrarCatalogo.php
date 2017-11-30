@@ -6,17 +6,15 @@ session_start();
 if (isset($_SESSION['autor'])){
     $autor=$_SESSION["autor"];}
 else $autor='';
+if (isset($_SESSION['autor1'])){
+    $autor1=$_SESSION["autor1"];}
+else $autor1='';
+
 if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     $autor='';
     session_destroy();
 }
-if (isset($_SESSION['autor1'])){
-    $autor1=$_SESSION["autor1"];}
-else $autor1='';
-if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
-    $autor1='';
-    session_destroy();
-}
+
 ?>
 
 <html>
@@ -106,7 +104,7 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idObra '. $order);
 
     }else{
-        if(isset($_SESSION['autor']) && $autor!=''){
+        if(isset($_SESSION['autor1']) && $autor!=''){
             $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idObra '. $order);
 
         }else {
