@@ -64,7 +64,6 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         echo "<td>" . $obra->getTitulo() . "</td>\n";
         echo "<td>" . $obra->getAno() . "</td>\n";
         echo "<td><a href='mostrarCatalogo.php?order=".$numero."&autor=".$obra->getNombre()."'>" . $obra->getNombre() . "</td>\n";
-        $_SESSION['autor']=$obra->getNombre();
         if(!empty($obra->getDuracion())) echo "<td>" . $obra->getDuracion() . "</td>\n";else echo "<td> Sin datos </td>\n";
         echo "<td><a href='mostrarObra.php?idObra=".$obra->getIdObra()."'><img class='imagen' src='img/" . $obra->getImagen() . "'></a></td>\n";
         echo "</tr>";
@@ -75,7 +74,8 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     ?></table>
 <table>
     <tr style='background-color:lightblue'>
-        <th>Id Pintura</th>
+        <th>Id Pintura <a href="mostrarCatalogo.php?order=1&<?php if($autor!='') echo 'autor='.$autor; ?>"> &#9650</a>
+            <a href="mostrarCatalogo.php?order=0&<?php if($autor!='')echo 'autor='.$autor ;?>"> &#9660</a></th>
         <th>Titulo</th>
         <th>Año</th>
         <th>Id Autor</th>
@@ -84,14 +84,35 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
 
     <?php
     $resultado->free_result();
-    $resultado = $conexion->query("SELECT * from pintura,autor WHERE autor.idAutor=pintura.idAutor");
+    $order='';
+    $numero='';
+    if(isset($_REQUEST["order"]) && $_REQUEST["order"]==1){
+        $order='ASC';
+        $numero=1;
+    }else{
+        $order='DESC';
+        $numero=0;
+    }
+    if(isset($_REQUEST["autor"]) && !isset($_SESSION['autor'])) {
+        $autor = $_REQUEST["autor"];
+        $_SESSION['autor'] = $_REQUEST["autor"];
+        $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY pintura.idObra '. $order);
+
+    }else{
+        if(isset($_SESSION['autor']) && $autor!=''){
+            $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY pintura.idObra '. $order);
+
+        }else {
+            $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor ORDER BY pintura.idObra ' . $order);
+        }
+    }
     if($resultado->num_rows===0)echo "No hay pinturas en el registro";
     while ($pintura = $resultado->fetch_object('Pintura')) {
         echo "<tr bgcolor='lightgreen'>";
         echo "<td>" . $pintura->getIdPintura() . "</td>\n";
         echo "<td>" . $pintura->getTitulo() . "</td>\n";
         echo "<td>" . $pintura->getAno() . "</td>\n";
-        echo "<td>" . $pintura->getNombre() . "</td>\n";
+        echo "<td><a href='mostrarCatalogo.php?order=".$numero."&autor=".$obra->getNombre()."'>" . $obra->getNombre() . "</td>\n";
         echo "<td><a href='mostrarObra.php?idPintura=".$pintura->getIdPintura()."'><img class='imagen' src='img/" . $pintura->getImagen() . "'></a></td>\n";
         echo "</tr>";
     }
