@@ -89,18 +89,10 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
 
     <?php
     $resultado->free_result();
-    $order='';
-    $numero='';
-    if(isset($_REQUEST["order"]) && $_REQUEST["order"]==1){
-        $order='ASC';
-        $numero=1;
-    }else{
-        $order='DESC';
-        $numero=0;
-    }
+
     if(isset($_REQUEST["autor1"]) && !isset($_SESSION['autor1'])) {
         $autor = $_REQUEST["autor1"];
-        $_SESSION['autor'] = $_REQUEST["autor1"];
+        $_SESSION['autor1'] = $_REQUEST["autor1"];
         $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idObra '. $order);
 
     }else{
