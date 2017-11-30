@@ -51,6 +51,6 @@ if(!$tipo) {
 
 }
 ?>
-
+<a href="mostrarCatalogo.php">Volver</a>
 </body>
 </html>
