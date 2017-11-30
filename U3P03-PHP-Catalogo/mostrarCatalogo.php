@@ -10,6 +10,13 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     $autor='';
     session_destroy();
 }
+if (isset($_SESSION['autor1'])){
+    $autor1=$_SESSION["autor1"];}
+else $autor1='';
+if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
+    $autor1='';
+    session_destroy();
+}
 ?>
 
 <html>
@@ -74,8 +81,8 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     ?></table>
 <table>
     <tr style='background-color:lightblue'>
-        <th>Id Pintura <a href="mostrarCatalogo.php?order=1&<?php if($autor!='') echo 'autor='.$autor; ?>"> &#9650</a>
-            <a href="mostrarCatalogo.php?order=0&<?php if($autor!='')echo 'autor='.$autor ;?>"> &#9660</a></th>
+        <th>Id Pintura <a href="mostrarCatalogo.php?order=1&<?php if($autor1!='') echo 'autor='.$autor1; ?>"> &#9650</a>
+            <a href="mostrarCatalogo.php?order=0&<?php if($autor1!='')echo 'autor='.$autor1 ;?>"> &#9660</a></th>
         <th>Titulo</th>
         <th>Año</th>
         <th>Id Autor</th>
@@ -93,14 +100,14 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         $order='DESC';
         $numero=0;
     }
-    if(isset($_REQUEST["autor"]) && !isset($_SESSION['autor'])) {
-        $autor = $_REQUEST["autor"];
-        $_SESSION['autor'] = $_REQUEST["autor"];
-        $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY pintura.idObra '. $order);
+    if(isset($_REQUEST["autor1"]) && !isset($_SESSION['autor1'])) {
+        $autor = $_REQUEST["autor1"];
+        $_SESSION['autor'] = $_REQUEST["autor1"];
+        $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idObra '. $order);
 
     }else{
         if(isset($_SESSION['autor']) && $autor!=''){
-            $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY pintura.idObra '. $order);
+            $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idObra '. $order);
 
         }else {
             $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor ORDER BY pintura.idObra ' . $order);
