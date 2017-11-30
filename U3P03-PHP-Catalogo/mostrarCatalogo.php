@@ -109,7 +109,7 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         echo "<td>" . $pintura->getIdPintura() . "</td>\n";
         echo "<td>" . $pintura->getTitulo() . "</td>\n";
         echo "<td>" . $pintura->getAno() . "</td>\n";
-        echo "<td><a href='mostrarCatalogo.php?order=".$numero."&autor=".$pintura->getNombre()."'>" . $pintura->getNombre() . "</td>\n";
+        echo "<td><a href='mostrarCatalogo.php?order=".$numero."&autor1=".$pintura->getNombre()."'>" . $pintura->getNombre() . "</td>\n";
         echo "<td><a href='mostrarObra.php?idPintura=".$pintura->getIdPintura()."'><img class='imagen' src='img/" . $pintura->getImagen() . "'></a></td>\n";
         echo "</tr>";
     }
