@@ -79,8 +79,8 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     ?></table>
 <table>
     <tr style='background-color:lightblue'>
-        <th>Id Pintura <a href="mostrarCatalogo.php?order=1&<?php if($autor1!='') echo 'autor='.$autor1; ?>"> &#9650</a>
-            <a href="mostrarCatalogo.php?order=0&<?php if($autor1!='')echo 'autor='.$autor1 ;?>"> &#9660</a></th>
+        <th>Id Pintura <a href="mostrarCatalogo.php?order=1&<?php if($autor1!='') echo 'autor1='.$autor1; ?>"> &#9650</a>
+            <a href="mostrarCatalogo.php?order=0&<?php if($autor1!='')echo 'autor1='.$autor1 ;?>"> &#9660</a></th>
         <th>Titulo</th>
         <th>Año</th>
         <th>Id Autor</th>
