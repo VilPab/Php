@@ -3,12 +3,12 @@ include "Obra.php";
 include "Pintura.php";
 include "connection.php";
 session_start();
-if(isset($_GET['Buscar'])){
-    $busqueda=$_GET['busqueda'];
-}
-if (isset($_SESSION['autor'])){
-    $autor=$_SESSION["autor"];}
-else $autor='';
+$buscar=(isset($_POST['busqueda']) ? $_POST['busqueda']:'');
+$autor=(isset($_SESSION["autor"]) ?  $_SESSION["autor"]:'');
+$autor1=(isset($_SESSION["autor1"]) ?  $_SESSION["autor1"]:'');
+
+
+
 if (isset($_SESSION['autor1'])){
     $autor1=$_SESSION["autor1"];}
 else $autor1='';
@@ -27,7 +27,7 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
 </head>
 <body>
 <table>
-    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8"); ?> " method="get">
+    <form action="./" method="POST">
         Buscar obra:<input type="text" name="busqueda">
         <input type="submit" name="Buscar">
     </form>
@@ -124,7 +124,7 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         }
     }
 
-    if($resultado->num_rows===0)echo "No hay pinturas en el registro";
+   /* if($resultado->num_rows===0)echo "No hay pinturas en el registro";
     while ($pintura = $resultado->fetch_object('Pintura')) {
         echo "<tr bgcolor='lightgreen'>";
         echo "<td>" . $pintura->getIdPintura() . "</td>\n";
@@ -133,8 +133,19 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         echo "<td><a href='mostrarCatalogo.php?order=".$numero."&autor1=".$pintura->getNombre()."'>" . $pintura->getNombre() . "</td>\n";
         echo "<td><a href='mostrarObra.php?idPintura=".$pintura->getIdPintura()."'><img class='imagen' src='img/" . $pintura->getImagen() . "'></a></td>\n";
         echo "</tr>";
-    }
+    }*/
     ?>
+
+    <?php  while ($pintura = $resultado->fetch_object('Pintura')) : ?>
+        <tr bgcolor='lightgreen'>
+             <td><?= $pintura->getIdPintura(); ?></td>
+             <td><?= $pintura->getTitulo(); ?></td>
+             <td><?= $pintura->getAno(); ?></td>
+             <td><a href="mostrarCatalogo.php?order=<?= $numero; ?>&autor1=<?= $pintura->getNombre(); ?>"><?= $pintura->getNombre(); ?></a></td>
+             <td><a href="mostrarObra.php?idPintura=<?= $pintura->getIdPintura(); ?>"><img class="imagen" src="img/<?= $pintura->getImagen() ?>"></a></td>
+        </tr>
+     <?php endwhile; ?>
+
 </table>
 </body>
 </html>

@@ -12,12 +12,12 @@ include "connection.php";
 $tipo;
 // Recoger el identificador de la obra de request
     if (isset($_REQUEST["idPintura"])){
-        $id = $_REQUEST["idPintura"];
+        $id = (int)$_REQUEST["idPintura"];
         $tipo=1;
-        $resultado = $conexion->query("SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND pintura.idPintura=$id");}
+        $resultado = $conexion->query("SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND pintura.idPintura=($id");}
     else {
         if (isset($_REQUEST["idObra"])) {
-            $id = $_REQUEST["idObra"];
+            $id = (int)$_REQUEST["idObra"];
             $tipo = 0;
             $resultado = $conexion->query("SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND musica.idObra=$id");
         }else{
