@@ -93,14 +93,14 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     if(isset($_REQUEST["autor1"]) && !isset($_SESSION['autor1'])) {
         $autor = $_REQUEST["autor1"];
         $_SESSION['autor1'] = $_REQUEST["autor1"];
-        $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idObra '. $order);
+        $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idPintura '. $order);
 
     }else{
         if(isset($_SESSION['autor1']) && $autor!=''){
-            $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idObra '. $order);
+            $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND autor.nombre="'.$autor1.'" ORDER BY pintura.idPintura '. $order);
 
         }else {
-            $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor ORDER BY pintura.idObra ' . $order);
+            $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor ORDER BY pintura.idPintura ' . $order);
         }
     }
     if($resultado->num_rows===0)echo "No hay pinturas en el registro";
