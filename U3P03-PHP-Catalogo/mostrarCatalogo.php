@@ -43,7 +43,7 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order);
 
     }else{
-        if(isset($_SESSION['autor'])){
+        if(isset($_SESSION['autor']) && $autor!=''){
             $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order);
 
         }else {
