@@ -5,7 +5,7 @@ include "connection.php";
 session_start();
 if (isset($_SESSION['autor'])){
     $autor=$_SESSION["autor"];}
-    else $autor='';
+else $autor='';
 if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     $autor='';
     session_destroy();
@@ -37,17 +37,18 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         $order='DESC';
         $numero=0;
     }
-    $autor='';
-    if(isset($_REQUEST["autor"])){
-        $autor=$_REQUEST["autor"];
-    if (isset($_SESSION['autor'])){
-            $autor=$_SESSION["autor"];}
-
+    if(isset($_REQUEST["autor"]) && !isset($_SESSION['autor'])) {
+        $autor = $_REQUEST["autor"];
+        $_SESSION['autor'] = $_REQUEST["autor"];
         $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order);
 
     }else{
-        $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor ORDER BY musica.idObra '. $order);
+        if(isset($_SESSION['autor'])){
+            $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order);
 
+        }else {
+            $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor ORDER BY musica.idObra ' . $order);
+        }
     }
 
     // para limpiar querys seguridad ::
@@ -72,7 +73,7 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     echo "<a href='mostrarCatalogo.php?sesion=0'>Quitar filtros</a>\n";
 
     ?></table>
-    <table>
+<table>
     <tr style='background-color:lightblue'>
         <th>Id Pintura</th>
         <th>Titulo</th>
@@ -81,10 +82,10 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         <th>Imagen</th>
     </tr>
 
-        <?php
-        $resultado->free_result();
-        $resultado = $conexion->query("SELECT * from pintura,autor WHERE autor.idAutor=pintura.idAutor");
-        if($resultado->num_rows===0)echo "No hay pinturas en el registro";
+    <?php
+    $resultado->free_result();
+    $resultado = $conexion->query("SELECT * from pintura,autor WHERE autor.idAutor=pintura.idAutor");
+    if($resultado->num_rows===0)echo "No hay pinturas en el registro";
     while ($pintura = $resultado->fetch_object('Pintura')) {
         echo "<tr bgcolor='lightgreen'>";
         echo "<td>" . $pintura->getIdPintura() . "</td>\n";
