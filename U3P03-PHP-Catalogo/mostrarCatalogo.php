@@ -3,6 +3,9 @@ include "Obra.php";
 include "Pintura.php";
 include "connection.php";
 session_start();
+if(isset($_GET['Buscar'])){
+    $busqueda=$_GET['busqueda'];
+}
 if (isset($_SESSION['autor'])){
     $autor=$_SESSION["autor"];}
 else $autor='';
@@ -12,6 +15,7 @@ else $autor1='';
 
 if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     $autor='';
+    $busqueda=null;
     session_destroy();
 }
 
@@ -23,6 +27,10 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
 </head>
 <body>
 <table>
+    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8"); ?> " method="get">
+        Buscar obra:<input type="text" name="busqueda">
+        <input type="submit" name="Buscar">
+    </form>
     <tr style='background-color:lightblue'>
         <th>Id Obra <a href="mostrarCatalogo.php?order=1&<?php if($autor!='') echo 'autor='.$autor; ?>"> &#9650</a>
             <a href="mostrarCatalogo.php?order=0&<?php if($autor!='')echo 'autor='.$autor ;?>"> &#9660</a></th>
@@ -42,17 +50,24 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         $order='DESC';
         $numero=0;
     }
-    if(isset($_REQUEST["autor"]) && !isset($_SESSION['autor'])) {
-        $autor = $_REQUEST["autor"];
-        $_SESSION['autor'] = $_REQUEST["autor"];
-        $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order);
 
-    }else{
-        if(isset($_SESSION['autor']) && $autor!=''){
-            $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="'.$autor.'" ORDER BY musica.idObra '. $order);
+    if(isset($busqueda)){
+        $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND musica.titulo="'. $busqueda.'"' );
 
-        }else {
-            $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor ORDER BY musica.idObra ' . $order);
+    }else {
+
+        if (isset($_REQUEST["autor"]) && !isset($_SESSION['autor'])) {
+            $autor = $_REQUEST["autor"];
+            $_SESSION['autor'] = $_REQUEST["autor"];
+            $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="' . $autor . '" ORDER BY musica.idObra ' . $order);
+
+        } else {
+            if (isset($_SESSION['autor']) && $autor != '') {
+                $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="' . $autor . '" ORDER BY musica.idObra ' . $order);
+
+            } else {
+                $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor ORDER BY musica.idObra ' . $order);
+            }
         }
     }
 
