@@ -106,7 +106,7 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     $resultado->free_result();
 
     if(isset($busqueda)){
-        $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND musica.titulo="'. $busqueda.'"' );
+        $resultado = $conexion->query('SELECT * FROM pintura,autor WHERE pintura.idAutor=autor.idAutor AND pintura.titulo="'. $busqueda.'"' );
 
     }else {
         if (isset($_REQUEST["autor1"]) && !isset($_SESSION['autor1'])) {
