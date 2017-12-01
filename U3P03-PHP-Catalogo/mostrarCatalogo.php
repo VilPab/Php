@@ -3,15 +3,9 @@ include "Obra.php";
 include "Pintura.php";
 include "connection.php";
 session_start();
-$buscar=(isset($_POST['busqueda']) ? $_POST['busqueda']:'');
+$busqueda=(isset($_GET['busqueda']) ? $_GET['busqueda']:'');
 $autor=(isset($_SESSION["autor"]) ?  $_SESSION["autor"]:'');
 $autor1=(isset($_SESSION["autor1"]) ?  $_SESSION["autor1"]:'');
-
-
-
-if (isset($_SESSION['autor1'])){
-    $autor1=$_SESSION["autor1"];}
-else $autor1='';
 
 if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     $autor='';
@@ -27,7 +21,7 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
 </head>
 <body>
 <table>
-    <form action="./" method="POST">
+    <form action="./mostrarCatalogo.php" method="GET">
         Buscar obra:<input type="text" name="busqueda">
         <input type="submit" name="Buscar">
     </form>
@@ -51,22 +45,25 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
         $numero=0;
     }
 
-    if(isset($busqueda)){
+    if($busqueda!=''){
         $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND musica.titulo="'. $busqueda.'"' );
 
     }else {
 
-        if (isset($_REQUEST["autor"]) && !isset($_SESSION['autor'])) {
+        if (isset($_REQUEST["autor"]) && $autor=='') {
+            $_SESSION['autor']=$_REQUEST['autor'];
             $autor = $_REQUEST["autor"];
-            $_SESSION['autor'] = $_REQUEST["autor"];
             $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="' . $autor . '" ORDER BY musica.idObra ' . $order);
 
         } else {
-            if (isset($_SESSION['autor']) && $autor != '') {
+            if ($autor !=''){
                 $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor AND autor.nombre="' . $autor . '" ORDER BY musica.idObra ' . $order);
+
 
             } else {
                 $resultado = $conexion->query('SELECT * FROM musica,autor WHERE musica.idAutor=autor.idAutor ORDER BY musica.idObra ' . $order);
+
+
             }
         }
     }
