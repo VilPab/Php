@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7be52ea-ea93-4663-92ce-313e8f658866" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P04-Autenticación en PHP/alta.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P04-Autenticación en PHP/baja.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P04-Autenticación en PHP/connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P04-Autenticación en PHP/doc/U3P04-Autenticación en PHP.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P04-Autenticación en PHP/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P04-Autenticación en PHP/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/U3P04-Autenticación en PHP/logout.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php" afterPath="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,56 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="catalogo12(1).sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/sql/catalogo12(1).sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding>
-                <marker date="1511443440000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-                <marker date="1511443440000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-                <marker date="1511443440000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-                <marker date="1511443440000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-                <marker date="1511443440000" expanded="true" signature="706:969" ph="CREATE TABLE... autor" />
-                <marker date="1511443440000" expanded="true" signature="1021:1310" ph="INSERT INTO `autor`... " />
-                <marker date="1511443440000" expanded="true" signature="1427:1773" ph="CREATE TABLE... musica" />
-                <marker date="1511443440000" expanded="true" signature="1826:2413" ph="INSERT INTO `musica`... " />
-                <marker date="1511443440000" expanded="true" signature="2531:2648" ph="CREATE TABLE... pintura" />
-                <marker date="1511443440000" expanded="true" signature="2766:3099" ph="CREATE TABLE... usuario" />
-                <marker date="1511443440000" expanded="true" signature="3153:3292" ph="INSERT INTO `usuario`... " />
-                <marker date="1511443440000" expanded="true" signature="3371:3420" ph="ALTER TABLE `autor`... " />
-                <marker date="1511443440000" expanded="true" signature="3461:3550" ph="ALTER TABLE `musica`... " />
-                <marker date="1511443440000" expanded="true" signature="3592:3645" ph="ALTER TABLE `pintura`... " />
-                <marker date="1511443440000" expanded="true" signature="3687:3736" ph="ALTER TABLE `usuario`... " />
-                <marker date="1511443440000" expanded="true" signature="3831:3920" ph="ALTER TABLE `autor`... " />
-                <marker date="1511443440000" expanded="true" signature="3968:4058" ph="ALTER TABLE `musica`... " />
-                <marker date="1511443440000" expanded="true" signature="4107:4182" ph="ALTER TABLE `pintura`... " />
-                <marker date="1511443440000" expanded="true" signature="4270:4415" ph="ALTER TABLE `musica`... " />
-                <marker date="1511443440000" expanded="true" signature="4426:4488" ph="/*!40101 SET... " />
-                <marker date="1511443440000" expanded="true" signature="4490:4554" ph="/*!40101 SET... " />
-                <marker date="1511443440000" expanded="true" signature="4556:4618" ph="/*!40101 SET... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conexion6.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U3P02-PHP-BBDD/conexion6.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="74" />
-              <folding>
-                <marker date="1511869440702" expanded="true" signature="291:363" ph="SELECT chip,... animal" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Obra.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/Obra.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,23 +74,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="11" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="20" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mostrarCatalogo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mostrarCatalogo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="53" column="50" lean-forward="false" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+            <state relative-caret-position="486">
+              <caret line="144" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1512115778654" expanded="true" signature="1329:1425" ph="SELECT * FRO... musica" />
                 <marker date="1512115778654" expanded="true" signature="1329:1428" ph="SELECT * FRO... musica" />
                 <marker date="1512115778654" expanded="true" signature="1634:1753" ph="SELECT * FRO... musica" />
@@ -137,9 +87,6 @@
                 <marker date="1512115778654" expanded="true" signature="2063:2148" ph="SELECT * FRO... musica" />
                 <marker date="1512115778654" expanded="true" signature="2063:2161" ph="SELECT * FRO... musica" />
                 <marker date="1512115778654" expanded="true" signature="3145:3160" ph="..." />
-                <marker date="1512115778654" expanded="true" signature="3145:3221" ph="..." />
-                <marker date="1512115778654" expanded="true" signature="3162:3188" ph="..." />
-                <marker date="1512115778654" expanded="true" signature="3189:3221" ph="..." />
                 <marker date="1512115778654" expanded="true" signature="3641:3740" ph="SELECT * FRO... pintura" />
                 <marker date="1512115778654" expanded="true" signature="3971:4097" ph="SELECT * FRO... pintura" />
                 <marker date="1512115778654" expanded="true" signature="4237:4363" ph="SELECT * FRO... pintura" />
@@ -149,31 +96,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registro.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/registro.php">
+      <file leaf-file-name="U3P04-Autenticación en PHP.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/doc/U3P04-Autenticación en PHP.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="720">
+                <caret line="130" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/logout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
+        <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="432">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <marker date="1512479492702" expanded="true" signature="1182:1217" ph="SELECT login... usuario" />
+                <marker date="1512479492702" expanded="true" signature="1182:1227" ph="SELECT * fro... usuario" />
+                <marker date="1512479492702" expanded="true" signature="1182:1228" ph="SELECT login... usuario" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pintura.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/Pintura.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="5" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <marker date="1512477958134" expanded="true" signature="345:378" ph="SELECT nombr... titulo" />
+                <marker date="1512477958134" expanded="true" signature="345:392" ph="SELECT login... usuario" />
+                <marker date="1512477958134" expanded="true" signature="345:417" ph="SELECT login... usuario" />
+                <marker date="1512477958134" expanded="true" signature="345:418" ph="SELECT login... usuario" />
+                <marker date="1512477958134" expanded="true" signature="345:428" ph="SELECT login... usuario" />
+                <marker date="1512477958134" expanded="true" signature="345:430" ph="SELECT nombr... usuario" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -216,6 +197,9 @@
         <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarObra.php" />
         <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/connection.php" />
         <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php" />
+        <option value="$PROJECT_DIR$/U3P04-Autenticación en PHP/login.php" />
+        <option value="$PROJECT_DIR$/U3P04-Autenticación en PHP/index.php" />
+        <option value="$PROJECT_DIR$/U3P04-Autenticación en PHP/logout.php" />
       </list>
     </option>
   </component>
@@ -227,10 +211,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="34" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="x" value="67" />
+    <option name="y" value="96" />
+    <option name="width" value="1293" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -247,8 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,51 +241,30 @@
             <path>
               <item name="Php" type="b2602c69:ProjectViewProjectNode" />
               <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U2P08-PHP-Sesiones en PHP 2" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U2P08-PHP-Sesiones en PHP 2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U3P02-PHP-BBDD" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U3P02-PHP-BBDD" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sql" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="U3P03-PHP-Catalogo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Php" type="b2602c69:ProjectViewProjectNode" />
               <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U3P03-PHP-Catalogo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="U3P04-Autenticación en PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="U3P04-Autenticación en PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="doc" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="U3P03-PHP-Catalogo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="estilos" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Escritorio/JavaScript" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Escritorio/proyecto/interfaces" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -311,17 +272,18 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="http://vecinity.com/Php" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/U3P04-Autenticación en PHP/doc" />
+      <recent name="$PROJECT_DIR$/U3P03-PHP-Catalogo" />
+      <recent name="$PROJECT_DIR$/U3P02-Acceso a BBDD en PHP/doc" />
+      <recent name="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/U3P04-Autenticación en PHP" />
       <recent name="$PROJECT_DIR$/U3P02-PHP-BBDD" />
       <recent name="$PROJECT_DIR$/U3P02-PHP-BBDD/sql" />
       <recent name="$PROJECT_DIR$/U3P03-PHP-Catalogo/doc" />
       <recent name="$PROJECT_DIR$/U3P03-PHP-Catalogo/sql" />
-      <recent name="$PROJECT_DIR$/U3P02-PHP-BBDD/doc" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/U3P03-PHP-Catalogo" />
-      <recent name="$PROJECT_DIR$/U3P02-Acceso a BBDD en PHP/doc" />
-      <recent name="$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,6 +297,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.U3P04-Autenticación en PHP">
+    <configuration name="U3P04-Autenticación en PHP" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/U3P04-Autenticación en PHP" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.U3P04-Autenticación en PHP" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -369,6 +341,9 @@
       <workItem from="1511869306285" duration="1275000" />
       <workItem from="1511870697990" duration="4556000" />
       <workItem from="1511944623442" duration="5067000" />
+      <workItem from="1512116530820" duration="1761000" />
+      <workItem from="1512474479960" duration="1529000" />
+      <workItem from="1512476141177" duration="3838000" />
     </task>
     <task id="LOCAL-00001" summary="CLase">
       <created>1511179843641</created>
@@ -454,47 +429,47 @@
       <option name="project" value="LOCAL" />
       <updated>1512046475563</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="CLase">
+      <created>1512115831326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1512115831326</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="U3P04-Autenticación_en_PHP - 2017.12.05 at 12h 54m 48s.xml">
+      <configuration name="U3P04-Autenticación en PHP" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43338000" />
+    <option name="totallyTimeSpent" value="50500000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1297" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1295" height="772" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30504403" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10968775" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979983" sideWeight="0.49455675" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25380304" sideWeight="0.5116641" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2769486" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979983" sideWeight="0.49455675" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25380304" sideWeight="0.5116641" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,64 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/localhost.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/U3P01-Gestión de BBDD con MariaDB/U3P01-Gestión de BBDD con MariaDB.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -727,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,30 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding>
-            <marker date="1511443440000" expanded="true" signature="323:387" ph="/*!40101 SET... " />
-            <marker date="1511443440000" expanded="true" signature="389:455" ph="/*!40101 SET... " />
-            <marker date="1511443440000" expanded="true" signature="457:521" ph="/*!40101 SET... " />
-            <marker date="1511443440000" expanded="true" signature="523:552" ph="/*!40101 SET... " />
-            <marker date="1511443440000" expanded="true" signature="706:969" ph="CREATE TABLE... autor" />
-            <marker date="1511443440000" expanded="true" signature="1021:1310" ph="INSERT INTO `autor`... " />
-            <marker date="1511443440000" expanded="true" signature="1427:1773" ph="CREATE TABLE... musica" />
-            <marker date="1511443440000" expanded="true" signature="1826:2413" ph="INSERT INTO `musica`... " />
-            <marker date="1511443440000" expanded="true" signature="2531:2648" ph="CREATE TABLE... pintura" />
-            <marker date="1511443440000" expanded="true" signature="2766:3099" ph="CREATE TABLE... usuario" />
-            <marker date="1511443440000" expanded="true" signature="3153:3292" ph="INSERT INTO `usuario`... " />
-            <marker date="1511443440000" expanded="true" signature="3371:3420" ph="ALTER TABLE `autor`... " />
-            <marker date="1511443440000" expanded="true" signature="3461:3550" ph="ALTER TABLE `musica`... " />
-            <marker date="1511443440000" expanded="true" signature="3592:3645" ph="ALTER TABLE `pintura`... " />
-            <marker date="1511443440000" expanded="true" signature="3687:3736" ph="ALTER TABLE `usuario`... " />
-            <marker date="1511443440000" expanded="true" signature="3831:3920" ph="ALTER TABLE `autor`... " />
-            <marker date="1511443440000" expanded="true" signature="3968:4058" ph="ALTER TABLE `musica`... " />
-            <marker date="1511443440000" expanded="true" signature="4107:4182" ph="ALTER TABLE `pintura`... " />
-            <marker date="1511443440000" expanded="true" signature="4270:4415" ph="ALTER TABLE `musica`... " />
-            <marker date="1511443440000" expanded="true" signature="4426:4488" ph="/*!40101 SET... " />
-            <marker date="1511443440000" expanded="true" signature="4490:4554" ph="/*!40101 SET... " />
-            <marker date="1511443440000" expanded="true" signature="4556:4618" ph="/*!40101 SET... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,18 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/Obra.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -901,28 +784,55 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/registro.php">
+    <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/baja.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="25" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/alta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="324">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U2P08-PHP-Sesiones en PHP 2/test/registro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U2P04-PHP-Clases y Objetos/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="20" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="50" lean-forward="false" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+        <state relative-caret-position="486">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1512115778654" expanded="true" signature="1329:1425" ph="SELECT * FRO... musica" />
             <marker date="1512115778654" expanded="true" signature="1329:1428" ph="SELECT * FRO... musica" />
             <marker date="1512115778654" expanded="true" signature="1634:1753" ph="SELECT * FRO... musica" />
@@ -930,14 +840,57 @@
             <marker date="1512115778654" expanded="true" signature="2063:2148" ph="SELECT * FRO... musica" />
             <marker date="1512115778654" expanded="true" signature="2063:2161" ph="SELECT * FRO... musica" />
             <marker date="1512115778654" expanded="true" signature="3145:3160" ph="..." />
-            <marker date="1512115778654" expanded="true" signature="3145:3221" ph="..." />
-            <marker date="1512115778654" expanded="true" signature="3162:3188" ph="..." />
-            <marker date="1512115778654" expanded="true" signature="3189:3221" ph="..." />
             <marker date="1512115778654" expanded="true" signature="3641:3740" ph="SELECT * FRO... pintura" />
             <marker date="1512115778654" expanded="true" signature="3971:4097" ph="SELECT * FRO... pintura" />
             <marker date="1512115778654" expanded="true" signature="4237:4363" ph="SELECT * FRO... pintura" />
             <marker date="1512115778654" expanded="true" signature="4445:4536" ph="SELECT * FRO... pintura" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1512477958134" expanded="true" signature="345:378" ph="SELECT nombr... titulo" />
+            <marker date="1512477958134" expanded="true" signature="345:392" ph="SELECT login... usuario" />
+            <marker date="1512477958134" expanded="true" signature="345:417" ph="SELECT login... usuario" />
+            <marker date="1512477958134" expanded="true" signature="345:418" ph="SELECT login... usuario" />
+            <marker date="1512477958134" expanded="true" signature="345:428" ph="SELECT login... usuario" />
+            <marker date="1512477958134" expanded="true" signature="345:430" ph="SELECT nombr... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <marker date="1512479492702" expanded="true" signature="1182:1217" ph="SELECT login... usuario" />
+            <marker date="1512479492702" expanded="true" signature="1182:1227" ph="SELECT * fro... usuario" />
+            <marker date="1512479492702" expanded="true" signature="1182:1228" ph="SELECT login... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P04-Autenticación en PHP/doc/U3P04-Autenticación en PHP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="720">
+            <caret line="130" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
