@@ -2,7 +2,12 @@
 include "Obra.php";
 include "Pintura.php";
 include "connection.php";
+
+
 session_start();
+$login=$_SESSION['login'];
+if($login!=1) header('Location:./login/login.php');
+
 $busqueda=(isset($_GET['busqueda']) ? $_GET['busqueda']:'');
 $autor=(isset($_SESSION["autor"]) ?  $_SESSION["autor"]:'');
 $autor1=(isset($_SESSION["autor1"]) ?  $_SESSION["autor1"]:'');
@@ -10,7 +15,7 @@ $autor1=(isset($_SESSION["autor1"]) ?  $_SESSION["autor1"]:'');
 if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     $autor='';
     $busqueda=null;
-    session_destroy();
+
 }
 
 ?>
@@ -144,5 +149,6 @@ if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
      <?php endwhile; ?>
 
 </table>
+<p><a href="login/index.php">Volver al inicio</a></p>
 </body>
 </html>

@@ -19,6 +19,7 @@ $mensajeError='';
 session_start();
 $login=(isset($_SESSION['login']) ? $_SESSION['login']:'');
 $user=(isset($_SESSION['usuario']) ? $_SESSION['usuario']:'');
+$admin=(isset($_SESSION['admin']) ? $_SESSION['admin']:'');
 
 
 if($login!=1) header('Location:login.php');
@@ -39,10 +40,13 @@ if($resultado->num_rows==0) header('Location:logout.php');
         <h1>Bienvenido <?= $usuario['nombre']; ?></h1>
         <p>Descripcion:<?= $usuario['descripcion']; ?></p>
         <p>Login:<?= $usuario['login']; ?></p>
+        <?php $admin=$usuario['admin']; $_SESSION['admin']=$usuario['admin']; ?>
 
 <?php endwhile; ?>
+<a href="../mostrarCatalogo.php">Ver catalogo</a>
 <a href="logout.php">Cerrar Sesion</a>
 <a href="baja.php">Eliminar cuenta</a>
+<?php if($admin==1)echo '<a href="alta.php">Alta de cuenta</a>'; ?>
 
 </body>
 </html>
