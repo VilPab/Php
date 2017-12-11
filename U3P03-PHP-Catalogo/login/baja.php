@@ -62,7 +62,6 @@ if(isset($_POST['enviar'])){
     <input type="submit" name="enviar">
 </form>
 <p><?php if($mensajeError!='')echo $mensajeError;?></p><br>
-<p><?php if($mensaje!='')echo $mensaje;?></p><br>
 <p>¿Quieres volver? Haz clic <a href="index.php">aquí </a>para volver.</p>
 
 </body>

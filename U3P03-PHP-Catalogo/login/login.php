@@ -22,7 +22,7 @@ if(isset($_POST['enviar'])){
                 $_SESSION['login'] = 1;
                 header('Location:index.php');
             }else{
-                $mensajeError = "El usuario y contraseña son erroneos, intentelo de nuevo";
+                $mensajeError = "La contraseña es erronea, intentelo de nuevo";
             }
         }
     }else {
@@ -36,15 +36,20 @@ if(isset($_POST['enviar'])){
 <html>
 <head>
     <title>Login</title>
+    <link href="../css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="../css/bootstrap-grid.css" type="text/css" rel="stylesheet">
+
 </head>
 <body>
-<h1>Login</h1>
-<form action="login.php" method="POST">
-    User:<input type="text" name="user">
-    Password:<input type="text" name="pass">
-    <input type="submit" name="enviar">
+<div class="container">
+<form class="form-signin"action="login.php" method="POST">
+    <h1 class="form-signin-heading">Login</h1>
+    <label class="sr-only">User:</label><input class="form-control" id="inputEmail" type="text" name="user">
+    <label class="sr-only">Password:</label><input class="form-control" id="inputPassword" type="password" name="pass">
+    <input class="btn btn-lg btn-primary btn-block"type="submit" name="enviar" value="Entrar">
 </form>
 <p><?php if($mensajeError!='')echo $mensajeError;?></p>
-
+</div>
 </body>
 </html>
