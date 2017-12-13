@@ -14,6 +14,7 @@ $autor1=(isset($_SESSION["autor1"]) ?  $_SESSION["autor1"]:'');
 
 if(isset($_REQUEST['sesion']) && $_REQUEST['sesion']==0){
     $autor='';
+    $_SESSION['autor']='';
     $busqueda=null;
 
 }

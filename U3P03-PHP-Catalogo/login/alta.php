@@ -31,7 +31,7 @@ $nombre=(isset($_POST['nombre']) ?  $_POST['nombre']:'');
 $descripcion=(isset($_POST['descripcion']) ?  $_POST['descripcion']:'');
 $tipoCuenta=(isset($_POST['tipo']) ?  $_POST['tipo']:'');
 
-if(isset($_POST['enviar'])){
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if($user==''){
         $mensajeError="El nombre de usuario no se ha introducido";
     }else{
