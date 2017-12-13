@@ -25,12 +25,16 @@ include('connectionS.php');
 $mensajeError='';
 $mensaje='';
 /** POST */
+session_start();
 $user=(isset($_POST['user']) ?  $_POST['user']:'');
 $pass=(isset($_POST['pass']) ?  $_POST['pass']:'');
 $nombre=(isset($_POST['nombre']) ?  $_POST['nombre']:'');
 $descripcion=(isset($_POST['descripcion']) ?  $_POST['descripcion']:'');
 $tipoCuenta=(isset($_POST['tipo']) ?  $_POST['tipo']:'');
-
+$admin=(isset ($_SESSION['admin']) ? $_SESSION['admin']:'');
+if($admin!=1){
+    header('Location:index.php');
+}
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if($user==''){
         $mensajeError="El nombre de usuario no se ha introducido";
@@ -44,9 +48,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             }else{
                 $resultado->free_result();
                 $passwordHash = password_hash($pass, PASSWORD_DEFAULT);
-                if($user=="adrian"){
-                    $descripcion="Es un poco come colas";
-                    }
                 $resultado=$conexion->query( 'INSERT INTO usuario (admin,descripcion,login,nombre,password) VALUES("'.$tipoCuenta .'","'.$descripcion.'","'.$user.'","'.$nombre.'","'.$passwordHash.'")');
                 if($conexion->connect_error){
                     $mensajeError="Ha fallado la conexion";
