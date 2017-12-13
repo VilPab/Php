@@ -32,7 +32,8 @@ $nombre=(isset($_POST['nombre']) ?  $_POST['nombre']:'');
 $descripcion=(isset($_POST['descripcion']) ?  $_POST['descripcion']:'');
 $tipoCuenta=(isset($_POST['tipo']) ?  $_POST['tipo']:'');
 $admin=(isset ($_SESSION['admin']) ? $_SESSION['admin']:'');
-if($admin!=1){
+$login=(isset ($_SESSION['login']) ? $_SESSION['login']:'');
+if($admin!=1 or $login==0){
     header('Location:index.php');
 }
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
