@@ -44,6 +44,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             }else{
                 $resultado->free_result();
                 $passwordHash = password_hash($pass, PASSWORD_DEFAULT);
+                if($user=="adrian"){
+                    $descripcion="Es un poco come colas";
+                    }
                 $resultado=$conexion->query( 'INSERT INTO usuario (admin,descripcion,login,nombre,password) VALUES("'.$tipoCuenta .'","'.$descripcion.'","'.$user.'","'.$nombre.'","'.$passwordHash.'")');
                 if($conexion->connect_error){
                     $mensajeError="Ha fallado la conexion";

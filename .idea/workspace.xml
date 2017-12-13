@@ -7,7 +7,6 @@
     <list default="true" id="c7be52ea-ea93-4663-92ce-313e8f658866" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P03-PHP-Catalogo/login/alta.php" afterPath="$PROJECT_DIR$/U3P03-PHP-Catalogo/login/alta.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php" afterPath="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/login/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="450">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <marker date="1512984794520" expanded="true" signature="1242:1287" ph="SELECT * fro... usuario" />
               </folding>
@@ -103,14 +102,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alta.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="alta.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/login/alta.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-103">
-              <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="331">
+              <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding>
-                <marker date="1513158976196" expanded="true" signature="2235:2284" ph="SELECT login... usuario" />
-                <marker date="1513158976196" expanded="true" signature="2563:2716" ph="INSERT INTO usuario... " />
+                <marker date="1513162325254" expanded="true" signature="2235:2284" ph="SELECT login... usuario" />
+                <marker date="1513162325254" expanded="true" signature="2680:2833" ph="INSERT INTO usuario... " />
               </folding>
             </state>
           </provider>
@@ -204,8 +203,8 @@
         <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/login/baja.php" />
         <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/login/login.php" />
-        <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/login/alta.php" />
         <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/mostrarCatalogo.php" />
+        <option value="$PROJECT_DIR$/U3P03-PHP-Catalogo/login/alta.php" />
       </list>
     </option>
   </component>
@@ -348,7 +347,7 @@
       <workItem from="1512476141177" duration="3838000" />
       <workItem from="1512825754985" duration="7952000" />
       <workItem from="1513080360614" duration="3157000" />
-      <workItem from="1513158665874" duration="2019000" />
+      <workItem from="1513158665874" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="CLase">
       <created>1511179843641</created>
@@ -448,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512987429716</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="CLase">
+      <created>1513162186823</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1513162186823</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -457,7 +463,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69028000" />
+    <option name="totallyTimeSpent" value="69243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="96" width="1233" height="714" extended-state="6" />
@@ -893,17 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/login/alta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <marker date="1513158976196" expanded="true" signature="2235:2284" ph="SELECT login... usuario" />
-            <marker date="1513158976196" expanded="true" signature="2563:2716" ph="INSERT INTO usuario... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/login/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
@@ -916,10 +911,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/login/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="450">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <marker date="1512984794520" expanded="true" signature="1242:1287" ph="SELECT * fro... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/U3P03-PHP-Catalogo/login/alta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+          <folding>
+            <marker date="1513162325254" expanded="true" signature="2235:2284" ph="SELECT login... usuario" />
+            <marker date="1513162325254" expanded="true" signature="2680:2833" ph="INSERT INTO usuario... " />
           </folding>
         </state>
       </provider>
