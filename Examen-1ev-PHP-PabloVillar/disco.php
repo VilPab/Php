@@ -28,8 +28,8 @@ if($nombre==''){
 ?>
 <html>
 <head>
-
-</head>
+    <title>Pablo Villar Garcia</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/encabezado/encabezado.jpg"></head>
 <body>
 <a href="disco.php?idioma=es&idDisco=<?=$nombre?>"><img src="img/banderas/es.png"></a>
 <a href="disco.php?idioma=is&idDisco=<?=$nombre?>"><img src="img/banderas/is.png"></a>

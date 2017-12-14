@@ -38,6 +38,8 @@ $resultado2 = $conexion->query('SELECT DISTINCT tipo FROM discos');
 ?>
 <html>
 <head>
+    <title>Pablo Villar Garcia</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/encabezado/encabezado.jpg"></head>
 
 </head>
 <body>

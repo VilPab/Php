@@ -38,8 +38,10 @@ if(isset($_POST['enviar'])){
 
 <html>
 <head>
-    <title>Login</title>
-    <link href="./css/bootstrap.css" type="text/css" rel="stylesheet">
+    <title>Pablo Villar Garcia</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/encabezado/encabezado.jpg"></head>
+
+<link href="./css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="./css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href=".   /css/bootstrap-grid.css" type="text/css" rel="stylesheet">
 
