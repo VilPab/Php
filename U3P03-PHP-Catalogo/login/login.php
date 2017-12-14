@@ -48,7 +48,7 @@ if(isset($_POST['enviar'])){
     <label class="sr-only">User:</label><input class="form-control" id="inputEmail" type="text" name="user">
     <label class="sr-only">Password:</label><input class="form-control" id="inputPassword" type="password" name="pass">
     <input class="btn btn-lg btn-primary btn-block"type="submit" name="enviar" value="Entrar">
-    <p><?php if($mensajeError!='')echo $mensajeError;?></p>
+    <p style="text-align: center;"><?php if($mensajeError!='')echo $mensajeError;?></p>
 </form>
 
 </div>
